@@ -1,0 +1,35 @@
+body{
+    font-family: sans-serif;
+    margin: 0px;
+}
+
+.header{
+    margin: 0 auto;
+    padding: 20px 0 20px 0;
+    width: 1170px;
+    height: 35px;
+    display: flex;
+    vertical-align: middle;
+
+    .header-left{
+        display: flex;
+        
+
+        img{
+            width: 128px;
+            height: 44.65px;
+            margin-bottom: 25px;
+        }
+
+        p{
+            width: 263.5px;
+            height: 22px;
+            font-size: 14px;
+            display: inline-block;
+        }
+    }
+
+    .header-right{
+        font-size: 14px;
+    }
+}
