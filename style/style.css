@@ -5,6 +5,8 @@ body {
 
 .main-content1 {
   text-align: center;
+  background-image: url("img/main1.jpg");
+  background-size: cover;
 }
 
 .main-content1 p {
