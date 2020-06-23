@@ -5,13 +5,12 @@ body {
 
 .header {
   margin: 0 auto;
-  padding: 20px 0 20px 0;
+  padding: 10px 0 20px 0;
   width: 1170px;
   height: 35px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  vertical-align: middle;
 }
 
 .header .header-left {
@@ -23,17 +22,28 @@ body {
 .header .header-left img {
   width: 128px;
   height: 44.65px;
-  margin-bottom: 25px;
 }
 
 .header .header-left p {
   width: 263.5px;
   height: 22px;
   font-size: 14px;
+  font-weight: bold;
   display: inline-block;
+  margin: 21px 0 0 7px;
 }
 
 .header .header-right {
   font-size: 14px;
+}
+
+.header .header-right p {
+  color: #fff;
+  margin-left: 455px;
+  margin-top: 5px;
+  border: 1px solid #d84940;
+  padding: 10px 39px;
+  background-color: #d84940;
+  border-radius: 25px;
 }
 /*# sourceMappingURL=style.css.map */
