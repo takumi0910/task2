@@ -357,6 +357,23 @@ body {
     }
 }
 
-.p {
-    height: 300px;
+.main-content6{
+    background-color: #016ea9;
+    text-align: center;
+    color: white;
+
+    p{
+        padding: 40px 0;
+        line-height: 32px;
+        font-size: 20px;
+        letter-spacing: 1.5px;
+        font-weight: 600;
+        margin: 0;
+
+
+        span{
+            color: #ebb94d;
+            line-height: 30px;
+        }
+    }
 }
