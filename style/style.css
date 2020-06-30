@@ -438,4 +438,136 @@ body {
   margin-top: 40px;
   margin-bottom: 0;
 }
+
+.main-content8 {
+  text-align: center;
+  background-color: #fef5e0;
+  padding: 40px 0 50px 0;
+}
+
+.main-content8 .title {
+  width: 860px;
+  height: 112px;
+  display: inline-block;
+  position: relative;
+}
+
+.main-content8 .title::before, .main-content8 .title::after {
+  content: "";
+  width: 48px;
+  height: 48px;
+  position: absolute;
+}
+
+.main-content8 .title::before {
+  border-left: solid 4px #ebb94d;
+  border-top: solid 4px #ebb94d;
+  top: 0;
+  left: 0;
+}
+
+.main-content8 .title::after {
+  border-right: solid 4px #ebb94d;
+  border-bottom: solid 4px #ebb94d;
+  right: 0;
+  bottom: 0;
+}
+
+.main-content8 .title p {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 44px;
+  letter-spacing: 1.3px;
+  margin: 0 0 0 0;
+  padding: 0 50px;
+}
+
+.main-content8 .title h3 {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 44px;
+  letter-spacing: 1.5px;
+  margin: 0 0 0 0;
+}
+
+.main-content8 .contents3-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 40px;
+}
+
+.main-content8 .contents3-wrapper .contents3 {
+  width: 360px;
+  margin: 0 15.5px;
+}
+
+.main-content8 .contents3-wrapper .contents3 img {
+  width: 360px;
+  height: 180px;
+}
+
+.main-content8 .contents3-wrapper .contents3 h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+  color: #ebb94d;
+  text-align: left;
+  line-height: 30px;
+  letter-spacing: 1.5px;
+}
+
+.main-content8 .contents3-wrapper .contents3 p {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 25.5px;
+  padding: 0;
+  text-align: left;
+  letter-spacing: 1.5px;
+}
+
+.main-content8 .text2 {
+  display: inline-block;
+  margin: 40px auto 0;
+  padding: 40px 0 40px 0;
+  background-color: white;
+  border: 2px solid #ebb94d;
+  width: 1170px;
+  border-radius: 5px;
+}
+
+.main-content8 .text2 h3 {
+  font-size: 28px;
+  color: #ebb94d;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 0;
+  letter-spacing: 1.5px;
+}
+
+.main-content8 .text2 :nth-child(2) {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 32px;
+  margin: 10px 0 0 0;
+  letter-spacing: 1.5px;
+}
+
+.main-content8 .text2 :nth-child(3) {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 25.3px;
+  margin: 10px 0 0 0;
+  letter-spacing: 1.5px;
+}
+
+.main-content8 .massage2 {
+  margin: 40px 0 0 0;
+  line-height: 22px;
+  font-size: 14px;
+}
 /*# sourceMappingURL=style.css.map */

@@ -432,3 +432,135 @@ body {
         margin-bottom: 0;
     }
 }
+
+.main-content8 {
+    text-align: center;
+    background-color: #fef5e0;
+    padding: 40px 0 50px 0;
+
+    .title {
+        width: 860px;
+        height: 112px;
+        display: inline-block;
+        position: relative;
+        $bar-style: solid;
+        $bar-size: 4px;
+        $bar-color: #ebb94d;
+
+        &::before,
+        &::after {
+            content: "";
+            width: 48px;
+            height: 48px;
+            position: absolute;
+        }
+
+        &::before {
+            border-left: $bar-style $bar-size $bar-color;
+            border-top: $bar-style $bar-size $bar-color;
+            top: 0;
+            left: 0;
+        }
+
+        &::after {
+            border-right: $bar-style $bar-size $bar-color;
+            border-bottom: $bar-style $bar-size $bar-color;
+            right: 0;
+            bottom: 0;
+        }
+
+        p {
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 44px;
+            letter-spacing: 1.3px;
+            margin: 0 0 0 0;
+            padding: 0 50px;
+        }
+
+        h3 {
+            font-size: 28px;
+            font-weight: 600;
+            line-height: 44px;
+            letter-spacing: 1.5px;
+            margin: 0 0 0 0;
+        }
+    }
+
+    .contents3-wrapper {
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+
+
+        .contents3 {
+            width: 360px;
+            margin: 0 15.5px;
+
+            img {
+                width: 360px;
+                height: 180px;
+            }
+
+            h3 {
+                font-size: 20px;
+                font-weight: 600;
+                margin: 0;
+                color: #ebb94d;
+                text-align: left;
+                line-height: 30px;
+                letter-spacing: 1.5px;
+            }
+
+            p {
+                margin-top: 10px;
+                font-size: 16px;
+                font-weight: 300;
+                line-height: 25.5px;
+                padding: 0;
+                text-align: left;
+                letter-spacing: 1.5px;
+            }
+        }
+    }
+
+    .text2 {
+        display: inline-block;
+        margin: 40px auto 0;
+        padding: 40px 0 40px 0;
+        background-color: white;
+        border: 2px solid #ebb94d;
+        width: 1170px;
+        border-radius: 5px;
+
+        h3 {
+            font-size: 28px;
+            color: #ebb94d;
+            font-weight: 600;
+            margin-top: 0;
+            margin-bottom: 0;
+            letter-spacing: 1.5px;
+        }
+
+        :nth-child(2) {
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 32px;
+            margin: 10px 0 0 0;
+            letter-spacing: 1.5px;
+        }
+
+        :nth-child(3) {
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 25.3px;
+            margin: 10px 0 0 0;
+            letter-spacing: 1.5px;
+        }
+    }
+    .massage2{
+        margin: 40px 0 0 0;
+        line-height: 22px;
+        font-size: 14px;
+    }
+}
