@@ -3,7 +3,56 @@ body {
   margin: 0px;
 }
 
-<<<<<<< HEAD
+.header {
+  margin: 0 auto;
+  padding: 10px 0 30px 0;
+  width: 1170px;
+  height: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header .header-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header .header-left img {
+  width: 128px;
+  height: 44.65px;
+}
+
+.header .header-left p {
+  width: 263.5px;
+  height: 22px;
+  font-size: 14px;
+  font-weight: bold;
+  display: inline-block;
+  margin: 21px 0 0 7px;
+  letter-spacing: 1.2px;
+}
+
+.header .header-right {
+  font-size: 14px;
+  height: 22px;
+}
+
+.header .header-right p {
+  color: #fff;
+  margin-left: 455px;
+  margin-top: 5px;
+  border: 1px solid #da6b64;
+  padding: 11px 39px 9px;
+  background-color: #da6b64;
+  border-radius: 25px;
+  width: 237.4px;
+  height: 22px;
+  text-align: center;
+  letter-spacing: 1.2px;
+}
+
 .main-content1 {
   text-align: center;
   width: 100%;
@@ -240,11 +289,6 @@ body {
 }
 
 .main-content4 .introduction-wrapper {
-=======
-.header {
-  margin: 0 auto;
-  padding: 10px 0 30px 0;
->>>>>>> header
   width: 1170px;
   height: 253px;
   margin: 0 auto;
@@ -265,7 +309,6 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-<<<<<<< HEAD
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
@@ -301,8 +344,6 @@ body {
   margin: 0;
   line-height: 40px;
   letter-spacing: 1.5px;
-=======
->>>>>>> header
 }
 
 .main-content5 p {
@@ -333,18 +374,12 @@ body {
           justify-content: center;
 }
 
-<<<<<<< HEAD
 .main-content5 .contents2 {
   width: 374px;
   height: 177px;
   background-color: white;
   border-radius: 6px;
   margin: 0 9px 0 9px;
-=======
-.header .header-left img {
-  width: 128px;
-  height: 44.65px;
->>>>>>> header
 }
 
 .main-content5 .contents2 :first-child {
@@ -361,7 +396,6 @@ body {
 .main-content5 .contents2 :nth-child(2) {
   color: black;
   font-size: 14px;
-<<<<<<< HEAD
   margin-top: 30px;
   margin-left: 18px;
   margin-right: 18px;
@@ -579,32 +613,10 @@ body {
   line-height: 25.3px;
   margin: 10px 0 0 0;
   letter-spacing: 1.5px;
-=======
-  font-weight: bold;
-  display: inline-block;
-  margin: 21px 0 0 7px;
-  letter-spacing: 1.2px;
->>>>>>> header
 }
 
 .main-content8 .massage2 {
   margin: 40px 0 0 0;
   line-height: 22px;
-  font-size: 14px;
-  height: 22px;
-}
-
-.header .header-right p {
-  color: #fff;
-  margin-left: 455px;
-  margin-top: 5px;
-  border: 1px solid #da6b64;
-  padding: 11px 39px 9px;
-  background-color: #da6b64;
-  border-radius: 25px;
-  width: 237.4px;
-  height: 22px;
-  text-align: center;
-  letter-spacing: 1.2px;
 }
 /*# sourceMappingURL=style.css.map */
