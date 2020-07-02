@@ -492,7 +492,6 @@ body {
         justify-content: center;
         margin-top: 40px;
 
-
         .contents3 {
             width: 360px;
             margin: 0 15.5px;
@@ -531,6 +530,7 @@ body {
         background-color: white;
         border: 2px solid #ebb94d;
         width: 1170px;
+        max-width: 93%;
         border-radius: 5px;
 
         h3 {
@@ -558,9 +558,163 @@ body {
             letter-spacing: 1.5px;
         }
     }
-    .massage2{
+    .massage2 {
         margin: 40px 0 0 0;
         line-height: 22px;
         font-size: 14px;
+    }
+}
+
+.main-content9 {
+    text-align: center;
+    background-image: url(../img/4.jpg);
+    background-size: cover;
+    height: 1389px;
+
+    i {
+        padding-top: 82px;
+        margin: 0 0 32px 0;
+        font-size: 28px;
+        color: white;
+        letter-spacing: 1.5px;
+        line-height: 40px;
+        font-weight: 500;
+    }
+
+    p {
+        font-size: 16px;
+        color: white;
+        letter-spacing: 1.5px;
+        line-height: 25px;
+        font-weight: 600;
+        margin-bottom: 45px;
+        margin-top: 0;
+    }
+
+    .contents4-wrapper {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        .contents4-wrap {
+            font-size: 16px;
+            width: 375px;
+            margin: 0 14.5px 0;
+            position: relative;
+
+            img {
+                width: 198px;
+                height: 198px;
+                border-radius: 50%;
+                position: absolute;
+                bottom: 360px;
+                right: 90px;
+            }
+        }
+
+        .contents4 {
+            margin-top: 163px;
+            border: solid 3px white;
+            height: 394px;
+            width: 375px;
+            box-sizing: border-box;
+
+            p {
+                padding: 43px 43px 0;
+                line-height: 25px;
+                letter-spacing: 1.5px;
+                font-size: 16px;
+                font-weight: 200;
+                margin: 0;
+            }
+
+            :nth-child(2) {
+                margin-top: 10px;
+                padding: 0;
+            }
+
+            :nth-child(3) {
+                padding: 0 43px 0;
+                margin-top: 10px;
+                text-align: left;
+            }
+        }
+    }
+
+    .contents5-wrapper {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        .contents5-wrap {
+            font-size: 16px;
+            width: 375px;
+            margin: 0 14.5px 0;
+            position: relative;
+
+            img {
+                width: 198px;
+                height: 198px;
+                border-radius: 50%;
+                position: absolute;
+                bottom: 330px;
+                right: 90px;
+            }
+        }
+
+        .contents5 {
+            margin-top: 198px;
+            border: solid 3px white;
+            height: 366px;
+            width: 375px;
+            box-sizing: border-box;
+
+            p {
+                padding: 43px 43px 0;
+                line-height: 25px;
+                letter-spacing: 1.5px;
+                font-size: 16px;
+                font-weight: 200;
+                margin: 0;
+            }
+
+            :nth-child(2) {
+                margin-top: 10px;
+                padding: 0;
+            }
+
+            :nth-child(3) {
+                padding: 0 43px 0;
+                margin-top: 32px;
+                text-align: left;
+            }
+        }
+        .contents6 {
+            margin-top: 198px;
+            border: solid 3px white;
+            height: 366px;
+            width: 375px;
+            box-sizing: border-box;
+
+            p {
+                padding: 43px 43px 0;
+                line-height: 25px;
+                letter-spacing: 1.5px;
+                font-size: 16px;
+                font-weight: 200;
+                margin: 0;
+            }
+
+            :nth-child(2) {
+                margin-top: 10px;
+                padding: 0;
+            }
+
+            :nth-child(3) {
+                padding: 0 43px 0;
+                margin-top: 10px;
+                text-align: left;
+            }
+        }
     }
 }
