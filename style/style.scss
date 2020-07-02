@@ -798,7 +798,7 @@ body {
 }
 
 .main-content11 {
-    padding: 40px 0;
+    padding: 40px 0 40px;
     text-align: center;
 
     h3 {
@@ -827,10 +827,9 @@ body {
     }
 
     .contents6-wrapper {
-        height: 854px;
-
         .contents6 {
             padding: 20px 0;
+            margin: 0;
 
             img {
                 width: 241px;
@@ -859,6 +858,117 @@ body {
                     text-decoration: underline;
                     line-height: 24px;
                 }
+            }
+        }
+    }
+}
+
+.main-content12 {
+    padding: 60px 0 80px 0;
+    width: 100%;
+    height: 663px;
+    background-image: url(../img/otya.jpg);
+    background-size: cover;
+    text-align: center;
+    color: white;
+
+    h3 {
+        font-size: 28px;
+        font-weight: 600;
+        letter-spacing: 1.5px;
+        line-height: 40px;
+        margin: 0;
+    }
+
+    p {
+        margin-top: 10px;
+        font-size: 16px;
+        line-height: 25px;
+        font-weight: 600;
+        letter-spacing: 1.5px;
+        margin-bottom: 0;
+    }
+
+    .contents7-wrapper {
+        margin-top: 50px;
+
+        ul {
+            width: 371px;
+            padding: 0;
+            margin: 0;
+            list-style-type: none;
+        }
+
+        .contents7 {
+            display: flex;
+            justify-content: center;
+        }
+
+        .contents7-left {
+            font-size: 16px;
+            color: black;
+            margin: 0 15px 0 0;
+            border: 2px solid #016ea9;
+            border-radius: 5px;
+
+            .text3 {
+                font-size: 20px;
+                color: white;
+                background-color: #016ea9;
+                line-height: 62px;
+                border-bottom: none;
+                padding: 0;
+            }
+
+            .text4{
+                padding-top: 20px;
+            }
+
+            .text5{
+                border-bottom: none;
+            }
+
+            li {
+                padding: 10.5px 0px 10.5px;
+                border-bottom: dotted 1px #e5e5e5;
+                background-color: white;
+                font-weight: 600;
+                letter-spacing: 1.5px;
+            }
+        }
+
+        .contents7-right {
+            margin: 0 0 0 15px;
+            border: 2px solid #016ea9;
+            width: 371px;
+            height: 347px;
+            font-size: 16px;
+            color: black;
+            border-radius: 5px;
+
+            .text3 {
+                font-size: 20px;
+                color: white;
+                background-color: #016ea9;
+                line-height: 62px;
+                border-bottom: none;
+                padding: 0;
+            }
+
+            .text4{
+                padding-top: 20px;
+            }
+
+            .text5{
+                border-bottom: none;
+            }
+
+            li {
+                padding: 10.5px 0px 10.5px;
+                border-bottom: dotted 1px #e5e5e5;
+                background-color: white;
+                font-weight: 600;
+                letter-spacing: 1.5px;
             }
         }
     }
