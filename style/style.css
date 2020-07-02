@@ -505,35 +505,35 @@ body {
   padding: 40px 0 50px 0;
 }
 
-.main-content8 .title {
+.main-content8 .massage2 {
   width: 860px;
   height: 112px;
   display: inline-block;
   position: relative;
 }
 
-.main-content8 .title::before, .main-content8 .title::after {
+.main-content8 .massage2::before, .main-content8 .massage2::after {
   content: "";
   width: 48px;
   height: 48px;
   position: absolute;
 }
 
-.main-content8 .title::before {
+.main-content8 .massage2::before {
   border-left: solid 4px #ebb94d;
   border-top: solid 4px #ebb94d;
   top: 0;
   left: 0;
 }
 
-.main-content8 .title::after {
+.main-content8 .massage2::after {
   border-right: solid 4px #ebb94d;
   border-bottom: solid 4px #ebb94d;
   right: 0;
   bottom: 0;
 }
 
-.main-content8 .title p {
+.main-content8 .massage2 p {
   font-size: 20px;
   font-weight: 600;
   line-height: 44px;
@@ -542,7 +542,7 @@ body {
   padding: 0 50px;
 }
 
-.main-content8 .title h3 {
+.main-content8 .massage2 h3 {
   font-size: 28px;
   font-weight: 600;
   line-height: 44px;
@@ -590,17 +590,18 @@ body {
   letter-spacing: 1.5px;
 }
 
-.main-content8 .text2 {
+.main-content8 .text {
   display: inline-block;
   margin: 40px auto 0;
   padding: 40px 0 40px 0;
   background-color: white;
   border: 2px solid #ebb94d;
   width: 1170px;
+  max-width: 93%;
   border-radius: 5px;
 }
 
-.main-content8 .text2 h3 {
+.main-content8 .text h3 {
   font-size: 28px;
   color: #ebb94d;
   font-weight: 600;
@@ -609,7 +610,7 @@ body {
   letter-spacing: 1.5px;
 }
 
-.main-content8 .text2 :nth-child(2) {
+.main-content8 .text :nth-child(2) {
   font-size: 20px;
   font-weight: 600;
   line-height: 32px;
@@ -617,7 +618,7 @@ body {
   letter-spacing: 1.5px;
 }
 
-.main-content8 .text2 :nth-child(3) {
+.main-content8 .text :nth-child(3) {
   font-size: 16px;
   font-weight: 600;
   line-height: 25.3px;
@@ -628,5 +629,442 @@ body {
 .main-content8 .massage2 {
   margin: 40px 0 0 0;
   line-height: 22px;
+}
+
+.main-content9 {
+  text-align: center;
+  background-image: url(../img/4.jpg);
+  background-size: cover;
+  height: 1389px;
+}
+
+.main-content9 i {
+  padding-top: 82px;
+  margin: 0 0 32px 0;
+  font-size: 28px;
+  color: white;
+  letter-spacing: 1.5px;
+  line-height: 40px;
+  font-weight: 500;
+}
+
+.main-content9 p {
+  font-size: 16px;
+  color: white;
+  letter-spacing: 1.5px;
+  line-height: 25px;
+  font-weight: 600;
+  margin-bottom: 45px;
+  margin-top: 0;
+}
+
+.main-content9 .contents4-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.main-content9 .contents4-wrapper .contents4-block {
+  font-size: 16px;
+  width: 375px;
+  margin: 0 14.5px 0;
+  position: relative;
+}
+
+.main-content9 .contents4-wrapper .contents4-block img {
+  width: 198px;
+  height: 198px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 360px;
+  right: 90px;
+}
+
+.main-content9 .contents4-wrapper .contents4 {
+  margin-top: 163px;
+  border: solid 3px white;
+  height: 394px;
+  width: 375px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.main-content9 .contents4-wrapper .contents4 p {
+  padding: 43px 43px 0;
+  line-height: 25px;
+  letter-spacing: 1.5px;
+  font-size: 16px;
+  font-weight: 200;
+  margin: 0;
+}
+
+.main-content9 .contents4-wrapper .contents4 :nth-child(2) {
+  margin-top: 10px;
+  padding: 0;
+}
+
+.main-content9 .contents4-wrapper .contents4 :nth-child(3) {
+  padding: 0 43px 0;
+  margin-top: 10px;
+  text-align: left;
+}
+
+.main-content9 .contents5-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.main-content9 .contents5-wrapper .contents5-block {
+  font-size: 16px;
+  width: 375px;
+  margin: 0 14.5px 0;
+  position: relative;
+}
+
+.main-content9 .contents5-wrapper .contents5-block img {
+  width: 198px;
+  height: 198px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 330px;
+  right: 90px;
+}
+
+.main-content9 .contents5-wrapper .contents5 {
+  margin-top: 198px;
+  border: solid 3px white;
+  height: 366px;
+  width: 375px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.main-content9 .contents5-wrapper .contents5 p {
+  padding: 43px 43px 0;
+  line-height: 25px;
+  letter-spacing: 1.5px;
+  font-size: 16px;
+  font-weight: 200;
+  margin: 0;
+}
+
+.main-content9 .contents5-wrapper .contents5 :nth-child(2) {
+  margin-top: 10px;
+  padding: 0;
+}
+
+.main-content9 .contents5-wrapper .contents5 :nth-child(3) {
+  padding: 0 43px 0;
+  margin-top: 32px;
+  text-align: left;
+}
+
+.main-content9 .contents5-wrapper .contents-5 {
+  margin-top: 198px;
+  border: solid 3px white;
+  height: 366px;
+  width: 375px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.main-content9 .contents5-wrapper .contents-5 p {
+  padding: 43px 43px 0;
+  line-height: 25px;
+  letter-spacing: 1.5px;
+  font-size: 16px;
+  font-weight: 200;
+  margin: 0;
+}
+
+.main-content9 .contents5-wrapper .contents-5 :nth-child(2) {
+  margin-top: 10px;
+  padding: 0;
+}
+
+.main-content9 .contents5-wrapper .contents-5 :nth-child(3) {
+  padding: 0 43px 0;
+  margin-top: 10px;
+  text-align: left;
+}
+
+.main-content10 {
+  text-align: center;
+  height: 190px;
+  width: 100%;
+  background-color: #ebb94d;
+  padding: 40px 0 50px;
+  position: relative;
+}
+
+.main-content10::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: -26px;
+  left: 0;
+  width: 0px;
+  height: 0px;
+  margin: auto;
+  border-style: solid;
+  border-color: #ebb94d transparent transparent transparent;
+  border-width: 26px 25px 0 25px;
+}
+
+.main-content10 p {
+  color: #ebb94d;
+  font-size: 14px;
+  letter-spacing: 1.5px;
+  font-weight: 200;
+  border-radius: 50%;
+  background-color: white;
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+  line-height: 80px;
+}
+
+.main-content10 .massage3 {
+  margin: 0;
+  font-size: 28px;
+  font-weight: 600;
+  color: white;
+  padding: 18px 147px;
+  display: inline-block;
+  position: relative;
+  letter-spacing: 1.5px;
+}
+
+.main-content10 .massage3::before, .main-content10 .massage3::after {
+  content: "";
+  width: 50px;
+  height: 50px;
+  position: absolute;
+}
+
+.main-content10 .massage3::before {
+  border-left: solid 4px #ffffff;
+  border-top: solid 4px #ffffff;
+  top: 0;
+  left: 0;
+}
+
+.main-content10 .massage3::after {
+  border-right: solid 4px #ffffff;
+  border-bottom: solid 4px #ffffff;
+  right: 0;
+  bottom: 0;
+}
+
+.white {
+  height: 300px;
+  width: 100%;
+  background-color: white;
+}
+
+.main-content11 {
+  padding: 40px 0 40px;
+  text-align: center;
+}
+
+.main-content11 h3 {
+  font-size: 28px;
+  line-height: 44px;
+  letter-spacing: 1.5px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.main-content11 p {
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: 1.5px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.main-content11 :nth-child(3) {
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 1.5px;
+  font-weight: 300;
+  margin: 32px 0 10px 0;
+}
+
+.main-content11 .contents6-wrapper .contents6 {
+  padding: 20px 0;
+  margin: 0;
+}
+
+.main-content11 .contents6-wrapper .contents6 img {
+  width: 241px;
+  height: 241px;
+  border: solid 2px #ebb94d;
+  display: inline-block;
+  margin: 0 15px 0 0;
+}
+
+.main-content11 .contents6-wrapper .contents6 p {
+  text-align: left;
+  margin: 15px 0 0 15px;
+  display: inline-block;
+  padding-bottom: 100px;
+  vertical-align: top;
+  color: #777;
+  font-style: italic;
+  font-size: 18px;
+  letter-spacing: 1.5px;
+  line-height: 28px;
+  font-weight: 300;
+}
+
+.main-content11 .contents6-wrapper .contents6 p span {
+  margin-top: 0.3em;
+  font-size: 15.3px;
+  text-decoration: underline;
+  line-height: 24px;
+}
+
+.main-content12 {
+  padding: 60px 0 80px 0;
+  width: 100%;
+  height: 663px;
+  background-image: url(../img/otya.jpg);
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+
+.main-content12 h3 {
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  line-height: 40px;
+  margin: 0;
+}
+
+.main-content12 p {
+  margin-top: 10px;
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  margin-bottom: 0;
+}
+
+.main-content12 .contents7-wrapper {
+  margin-top: 50px;
+}
+
+.main-content12 .contents7-wrapper ul {
+  width: 371px;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.main-content12 .contents7-wrapper .contents7 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main-content12 .contents7-wrapper .contents7-left {
+  font-size: 16px;
+  color: black;
+  margin: 0 15px 0 0;
+  border: 2px solid #016ea9;
+  border-radius: 5px;
+}
+
+.main-content12 .contents7-wrapper .contents7-left .text3 {
+  font-size: 20px;
+  color: white;
+  background-color: #016ea9;
+  line-height: 62px;
+  border-bottom: none;
+  padding: 0;
+}
+
+.main-content12 .contents7-wrapper .contents7-left .text4 {
+  padding-top: 20px;
+}
+
+.main-content12 .contents7-wrapper .contents7-left .text5 {
+  border-bottom: none;
+}
+
+.main-content12 .contents7-wrapper .contents7-left li {
+  padding: 10.5px 0px 10.5px;
+  border-bottom: dotted 1px #e5e5e5;
+  background-color: white;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+}
+
+.main-content12 .contents7-wrapper .contents7-right {
+  margin: 0 0 0 15px;
+  border: 2px solid #016ea9;
+  width: 371px;
+  height: 347px;
+  font-size: 16px;
+  color: black;
+  border-radius: 5px;
+}
+
+.main-content12 .contents7-wrapper .contents7-right .text3 {
+  font-size: 20px;
+  color: white;
+  background-color: #016ea9;
+  line-height: 62px;
+  border-bottom: none;
+  padding: 0;
+}
+
+.main-content12 .contents7-wrapper .contents7-right .text4 {
+  padding-top: 20px;
+}
+
+.main-content12 .contents7-wrapper .contents7-right .text5 {
+  border-bottom: none;
+}
+
+.main-content12 .contents7-wrapper .contents7-right li {
+  padding: 10.5px 0px 10.5px;
+  border-bottom: dotted 1px #e5e5e5;
+  background-color: white;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+}
+
+.main-content13 {
+  background-color: #016ea9;
+  text-align: center;
+  margin: 0;
+}
+
+.main-content13 p {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  line-height: 32px;
+  color: white;
+  padding: 40px 0;
 }
 /*# sourceMappingURL=style.css.map */
