@@ -1239,3 +1239,62 @@ body {
         }
     }
 }
+
+.main-content15 {
+    background-image: url(../img/bankoku.jpg);
+    height: 497px;
+    width: 100%;
+    background-size: cover;
+    color: white;
+
+    .contents9-wrapper {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .contents9 {
+        padding: 100px;
+    }
+    h3 {
+        font-size: 24px;
+        line-height: 40px;
+        font-weight: 600;
+        letter-spacing: 1.5px;
+
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 22px;
+        font-weight: 300;
+        letter-spacing: 1.5px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    li {
+        list-style: none;
+        font-size: 16px;
+        line-height: 25px;
+        font-weight: 600;
+        letter-spacing: 1.5px;
+        margin-bottom: 10px;
+        margin-top: 0;
+    }
+
+    ul {
+        padding-left: 0;
+    }
+
+    h4 {
+        font-size: 20px;
+        line-height: 32px;
+        font-weight: 600;
+        letter-spacing: 1.5px;
+        margin-top: 10px;
+        margin-bottom: 0;
+        right: 27.5%;
+    }
+}
