@@ -626,9 +626,10 @@ body {
   letter-spacing: 1.5px;
 }
 
-.main-content8 .massage2 {
+.main-content8 .text2 {
   margin: 40px 0 0 0;
   line-height: 22px;
+  font-size: 14px;
 }
 
 .main-content9 {
@@ -905,23 +906,31 @@ body {
 
 .main-content11 .contents6-wrapper .contents6 {
   padding: 20px 0;
-  margin: 0;
+  margin: 0 auto;
+  width: 800px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
-.main-content11 .contents6-wrapper .contents6 img {
+.main-content11 .contents6-wrapper .contents6 .contents6-left img {
   width: 241px;
   height: 241px;
   border: solid 2px #ebb94d;
-  display: inline-block;
   margin: 0 15px 0 0;
 }
 
-.main-content11 .contents6-wrapper .contents6 p {
+.main-content11 .contents6-wrapper .contents6 .contents6-right {
+  margin-left: 15px;
+}
+
+.main-content11 .contents6-wrapper .contents6 .contents6-right :first-child {
   text-align: left;
-  margin: 15px 0 0 15px;
-  display: inline-block;
-  padding-bottom: 100px;
-  vertical-align: top;
+  margin: 15px 0 0 0;
   color: #777;
   font-style: italic;
   font-size: 18px;
@@ -930,11 +939,16 @@ body {
   font-weight: 300;
 }
 
-.main-content11 .contents6-wrapper .contents6 p span {
-  margin-top: 0.3em;
+.main-content11 .contents6-wrapper .contents6 .contents6-right :nth-child(2) {
+  margin-top: 10px;
   font-size: 15.3px;
   text-decoration: underline;
   line-height: 24px;
+  letter-spacing: 1.5px;
+  text-align: left;
+  color: #777;
+  font-style: italic;
+  font-weight: 300;
 }
 
 .main-content12 {
@@ -1066,5 +1080,453 @@ body {
   line-height: 32px;
   color: white;
   padding: 40px 0;
+}
+
+.main-content14 {
+  text-align: center;
+  padding-bottom: 40px;
+  padding-top: 60px;
+}
+
+.main-content14 p {
+  line-height: 40px;
+  letter-spacing: 1.5px;
+  font-weight: 600;
+  font-size: 28px;
+  margin: 0 0 50px 0;
+}
+
+.main-content14 .laptop {
+  font-size: 1em;
+}
+
+.main-content14 .image1 {
+  margin-bottom: 40px;
+}
+
+.main-content14 img {
+  margin: 0;
+  vertical-align: bottom;
+}
+
+.main-content14 .contents8-all {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #fef5e0;
+  width: 1170px;
+  max-width: calc(100% - 40px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  padding: 10px 35px;
+  border-radius: 10px;
+  color: #333333;
+}
+
+.main-content14 .contents8-all .contents8-1-right {
+  margin-right: 20px;
+  padding: 20px 20px 20px 42px;
+}
+
+.main-content14 .contents8-all .contents8-1-right img {
+  vertical-align: bottom;
+  margin: 0;
+}
+
+.main-content14 .contents8-all .contents8-1-right p {
+  font-size: 18px;
+  line-height: 28px;
+  margin: 20px 0 0 0;
+}
+
+.main-content14 .contents8-all .contents8-1-left {
+  text-align: left;
+  padding-right: 5px;
+}
+
+.main-content14 .contents8-all .contents8-1-left p {
+  font-size: 16px;
+  line-height: 25px;
+  margin: 30px 0 20px;
+}
+
+.main-content14 .contents8-all .contents8-1-left :nth-child(2) {
+  font-size: 16px;
+  line-height: 25px;
+  margin: 0 0 20px 0;
+}
+
+.main-content14 .contents8-all .contents8-1-left :nth-child(3) {
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 300;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+.main-content14 .contents8-all .contents8-2-right {
+  padding-right: 30px;
+  padding-top: 60px;
+  padding-left: 31px;
+}
+
+.main-content14 .contents8-all .contents8-2-right img {
+  vertical-align: bottom;
+  margin: 0;
+}
+
+.main-content14 .contents8-all .contents8-2-right p {
+  font-size: 18px;
+  line-height: 28px;
+  margin: 20px 0 0 0;
+}
+
+.main-content14 .contents8-all .contents8-2-left {
+  text-align: left;
+  padding-bottom: 2px;
+  padding-right: 5px;
+}
+
+.main-content14 .contents8-all .contents8-2-left p {
+  font-size: 16px;
+  line-height: 25px;
+  margin: 30px 0 20px;
+}
+
+.main-content14 .contents8-all .contents8-2-left :nth-child(2) {
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 300;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+.main-content14 .contents8-all .contents8-2-left :nth-child(3) {
+  font-size: 16px;
+  line-height: 25px;
+  margin: 0 0 20px 0;
+}
+
+.main-content14 .contents8-all .contents8-3-right {
+  margin-right: 15px;
+  padding: 20px 31px 20px 46px;
+}
+
+.main-content14 .contents8-all .contents8-3-right img {
+  vertical-align: bottom;
+  margin: 0;
+}
+
+.main-content14 .contents8-all .contents8-3-right p {
+  font-size: 18px;
+  line-height: 28px;
+  margin: 20px 0 0 0;
+}
+
+.main-content14 .contents8-all .contents8-3-left {
+  text-align: left;
+  padding-right: 5px;
+}
+
+.main-content14 .contents8-all .contents8-3-left p {
+  font-size: 16px;
+  line-height: 25px;
+  margin: 30px 0 20px;
+}
+
+.main-content14 .contents8-all .contents8-3-left :nth-child(2) {
+  font-size: 16px;
+  line-height: 25px;
+  margin: 0 0 20px 0;
+}
+
+.main-content14 .contents8-all .contents8-4-right {
+  margin-right: 20px;
+  padding: 20px 31px 20px 50px;
+}
+
+.main-content14 .contents8-all .contents8-4-right img {
+  vertical-align: bottom;
+  margin: 0;
+}
+
+.main-content14 .contents8-all .contents8-4-right p {
+  font-size: 18px;
+  line-height: 28px;
+  margin: 20px 0 0 0;
+}
+
+.main-content14 .contents8-all .contents8-4-left {
+  text-align: left;
+  padding-right: 5px;
+}
+
+.main-content14 .contents8-all .contents8-4-left p {
+  font-size: 16px;
+  line-height: 25px;
+  margin: 30px 0 20px;
+}
+
+.main-content14 .contents8-all .contents8-4-left :nth-child(2) {
+  font-size: 16px;
+  line-height: 25px;
+  margin: 0 0 20px 0;
+}
+
+.main-content14 .contents8-all .contents8-4-left :nth-child(3) {
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 300;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+.main-content14 .contents8-all .contents8-5-right {
+  margin-right: 20px;
+  padding: 20px 0 20px 25px;
+}
+
+.main-content14 .contents8-all .contents8-5-right img {
+  vertical-align: bottom;
+  margin: 0;
+}
+
+.main-content14 .contents8-all .contents8-5-right p {
+  font-size: 18px;
+  line-height: 28px;
+  margin: 20px 0 0 0;
+}
+
+.main-content14 .contents8-all .contents8-5-left {
+  text-align: left;
+  padding-right: 5px;
+}
+
+.main-content14 .contents8-all .contents8-5-left p {
+  font-size: 16px;
+  line-height: 25px;
+  margin: 30px 0 20px;
+}
+
+.main-content14 .contents8-all .contents8-5-left :nth-child(2) {
+  font-size: 16px;
+  line-height: 25px;
+  margin: 0 0 20px 0;
+}
+
+.main-content14 .contents8-all .contents8-5-left :nth-child(3) {
+  font-size: 16px;
+  line-height: 25px;
+  margin: 0 0 20px 0;
+}
+
+.main-content15 {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-image: url(../img/bankoku.jpg);
+  height: 497px;
+  width: 100%;
+  background-size: contain;
+  padding: 0 100px 0 100px;
+  color: white;
+}
+
+.main-content15 .contents9 {
+  width: 800px;
+}
+
+.main-content15 h3 {
+  font-size: 24px;
+  line-height: 40px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  padding-top: 100px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.main-content15 p {
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 300;
+  letter-spacing: 1.5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.main-content15 li {
+  list-style: none;
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+.main-content15 ul {
+  padding-left: 0;
+}
+
+.main-content15 h4 {
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  margin-top: 10px;
+  margin-bottom: 0;
+  right: 27.5%;
+}
+
+.main-content16 {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #f7c23c;
+  height: 705px;
+  text-align: center;
+  width: 100%;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  padding: 60px 0 40px 0;
+  position: relative;
+}
+
+.main-content16 h2 {
+  font-size: 28px;
+  line-height: 40px;
+  margin-bottom: 40px;
+  margin-top: 0;
+}
+
+.main-content16 .gift {
+  color: black;
+  font-size: 28px;
+}
+
+.main-content16 p {
+  font-size: 16px;
+  line-height: 25px;
+  margin-bottom: 139px;
+}
+
+.main-content16 span {
+  font-size: 16px;
+  line-height: 25px;
+  color: white;
+}
+
+.main-content16 h3 {
+  position: absolute;
+  width: 45%;
+  font-size: 28px;
+  line-height: 44.5px;
+  margin: 0;
+  background-color: #f7c23c;
+  top: 233px;
+  left: 27.5%;
+  letter-spacing: 1.5px;
+  font-weight: 600;
+  z-index: 100;
+}
+
+.main-content16 .contents10-wrapper {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1170px;
+  height: 360px;
+  border: solid 2px white;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+}
+
+.main-content16 .contents10 {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background: white;
+  margin: 48px 60px 58px;
+}
+
+.main-content16 .contents10 h4 {
+  font-size: 24px;
+  font-weight: 300;
+  color: #ebb94d;
+  line-height: 38px;
+  margin-bottom: 10px;
+  margin-top: 52px;
+}
+
+.main-content16 .contents10 p {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 22px;
+  margin: 0;
+}
+
+.main-content17 {
+  background-image: url(../img/3.jpg);
+  background-size: cover;
+  height: 446px;
+  width: 100%;
+  color: white;
+  letter-spacing: 1.5px;
+  font-weight: 600;
+  text-align: center;
+  padding: 40px 0 40px;
+}
+
+.main-content17 h3 {
+  font-size: 28px;
+  margin: 20px 0 20px;
+  line-height: 44px;
+}
+
+.main-content17 p {
+  font-size: 20px;
+  margin-bottom: 40px;
+  margin-top: 0;
+  line-height: 32px;
+}
+
+.main-content17 .massage4 {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 28px;
+  padding: 14px 120px 14px;
+  margin-bottom: 20px;
+  margin-top: 0;
+  display: inline-block;
+  position: relative;
+}
+
+.main-content17 .massage4::before, .main-content17 .massage4::after {
+  content: "";
+  width: 50px;
+  height: 50px;
+  position: absolute;
+}
+
+.main-content17 .massage4::before {
+  border-left: solid 4px #ffffff;
+  border-top: solid 4px #ffffff;
+  top: 0;
+  left: 0;
+}
+
+.main-content17 .massage4::after {
+  border-right: solid 4px #ffffff;
+  border-bottom: solid 4px #ffffff;
+  right: 0;
+  bottom: 0;
 }
 /*# sourceMappingURL=style.css.map */
