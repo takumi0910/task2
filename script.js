@@ -6,6 +6,5 @@ $(function () {
         $(this).children(".accordion1").toggleClass("border");
     });
     
-    
-
+  
 });
