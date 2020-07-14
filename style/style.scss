@@ -1,5 +1,5 @@
 body {
-    font-family: Meiryo;
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Meiryo, Osaka, "MS PGothic", sans-serif;
     margin: 0px;
     padding-top: 75px;
 }
@@ -13,7 +13,7 @@ body {
     position: fixed;
     height: 75px;
     top: 0;
-    z-index: 100;
+    z-index: 50;
     width: 100%;
     background-color: white;
 }
@@ -48,31 +48,43 @@ body {
     }
 
     .header-right {
+        box-sizing: border-box;
         font-size: 14px;
-        height: 22px;
+        border: 1px solid #da6b64;
+        padding: 11px 38px 9px 39px;
+        background-color: #da6b64;
+        border-radius: 25px;
+        width: 317px;
+        height: 44px;
+        margin-top: 2px;
+
+        &:hover {
+            background-color: #d84940;
+            cursor: pointer;
+        }
 
         p {
             text-align: right;
             color: #fff;
-            margin-top: 2px;
-            border: 1px solid #da6b64;
-            padding: 11px 39px 9px;
-            background-color: #da6b64;
-            border-radius: 25px;
-            width: 237.4px;
-            height: 22px;
             letter-spacing: 1.5px;
+            margin: 0;
+            display: inline-block;
+        }
 
-            &:hover {
-                background-color: #d84940;
-            }
+        a {
+            font-size: 0;
+        }
+
+        img {
+            width: 0;
+            height: 0;
         }
     }
 }
 
 @media screen and (max-width: 1190px) {
     body {
-        font-family: sans-serif;
+        font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Meiryo, Osaka, "MS PGothic", sans-serif;
         margin: 0px;
         padding-top: 75px;
     }
@@ -87,7 +99,7 @@ body {
 
     .header {
         margin: 0 auto;
-        padding: 10px 0 30px 0;
+        padding: 14px 0 10px 0;
         width: calc(100% - 20px);
         height: 35px;
         display: flex;
@@ -108,42 +120,52 @@ body {
                 font-weight: 600;
                 letter-spacing: normal;
                 display: inline-block;
-                margin: 21px 0 0 7px;
+                margin: 23px 0 0 6px;
             }
         }
 
         .header-right {
-            text-align: left;
-            height: 19.2px;
+            box-sizing: border-box;
+            font-size: 12px;
+            font-weight: 300;
+            height: 41px;
+            border: 1px solid #da6b64;
+            padding: 10px 38px 11px 39px;
+            background-color: #da6b64;
+            border-radius: 25px;
+            width: 261px;
+            margin-top: 2px;
+
+            &:hover {
+                background-color: #d84940;
+                cursor: pointer;
+            }
 
             p {
-                font-size: 12px;
+                text-align: right;
                 color: #fff;
-                margin-top: 5px;
-                border: 1px solid #da6b64;
-                padding: 11px 39px 9px;
-                background-color: #da6b64;
-                border-radius: 25px;
-                width: 237.4px;
-                height: 22px;
-                text-align: center;
-                letter-spacing: 1.5px;
-                font-weight: 300;
-                line-height: 19.2px;
+                letter-spacing: normal;
+                margin: 0;
+                display: inline-block;
+            }
 
-                &:hover {
-                    background-color: #d84940;
-                }
+            a {
+                font-size: 0;
+            }
+
+            img {
+                width: 0;
+                height: 0;
             }
         }
     }
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 768px) {
     body {
-        font-family: sans-serif;
+        font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Meiryo, Osaka, "MS PGothic", sans-serif;
         margin: 0px;
-        padding-top: 75px;
+        padding-top: 62px;
     }
 
     .header-wrapper {
@@ -152,55 +174,99 @@ body {
         z-index: 100;
         width: 100%;
         background-color: white;
+        height: 62px;
     }
 
     .header {
         margin: 0 auto;
-        padding: 10px 0 30px 0;
-        width: 1170px;
-        height: 35px;
+        padding: 8px 0 0px 0;
+        width: calc(100% - 20px);
+        height: 54px;
         display: flex;
         background-color: white;
+        position: relative;
 
         .header-left {
             display: flex;
+            flex-direction: column-reverse;
 
             img {
-                width: 128px;
-                height: 44.65px;
+                width: 90px;
+                height: 31.39px;
+                margin-bottom: 5.5px;
             }
 
             p {
-                width: 263.5px;
-                height: 22px;
-                font-size: 14px;
-                font-weight: bold;
                 display: inline-block;
-                margin: 21px 0 0 7px;
-                letter-spacing: 1.2px;
+                font-size: 12px;
+                font-weight: 600;
+                margin: 0;
+                letter-spacing: normal;
+                line-height: 17px;
             }
         }
 
         .header-right {
-            font-size: 14px;
-            height: 40px;
+            width: 76px;
+            padding: 0;
+            height: 61px;
+            margin: 0;
+            border-radius: 0;
+            background-color: #da6b64;
+            position: absolute;
+            top: 0;
+            right: -10px;
+
+            &:hover {
+                background-color: #da6b64;
+            }
 
             p {
-                color: #fff;
-                margin-left: 455px;
-                margin-top: 5px;
-                border: 1px solid #da6b64;
-                padding: 11px 39px 9px;
-                background-color: #da6b64;
-                border-radius: 25px;
-                width: 237.4px;
-                height: 22px;
-                text-align: center;
-                letter-spacing: 1.2px;
+                font-size: 0;
+            }
+
+            img {
+                width: 20px;
+                height: 24.8px;
+                position: absolute;
+                top: 8.5px;
+                right: 27px;
+            }
+
+            a {
+                font-size: 12px;
+                color: white;
+                letter-spacing: 1.5px;
+                position: absolute;
+                top: 33px;
+                right: 10px;
 
                 &:hover {
-                    background-color: #d84940;
+                    text-decoration: underline white;
                 }
+
+                &:focus {
+                    text-decoration: underline white;
+                    outline: none;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header {
+        .header-left {
+            display: flex;
+            flex-direction: column-reverse;
+
+            p {
+                display: inline-block;
+                font-size: 10px;
+                font-weight: 600;
+                margin: 0;
+                letter-spacing: normal;
+                line-height: 17px;
             }
         }
     }
@@ -1813,12 +1879,12 @@ body {
             p {
                 margin: 0;
 
-                &:hover{
+                &:hover {
                     cursor: pointer;
                     text-decoration: underline;
                 }
 
-                &:focus{
+                &:focus {
                     outline: none;
                     text-decoration: underline;
                 }
@@ -1900,4 +1966,3 @@ body {
     display: flex;
     justify-content: center;
 }
-
