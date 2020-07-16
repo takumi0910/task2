@@ -11,6 +11,8 @@ body {
 }
 
 .header-wrapper {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   position: fixed;
   height: 75px;
   top: 0;
@@ -373,6 +375,10 @@ body {
   height: 604px;
 }
 
+.main-content2 br {
+  display: none;
+}
+
 .main-content2 .text7 {
   margin: 0;
   padding-top: 30px;
@@ -403,20 +409,26 @@ body {
   padding: 0.4px 0;
 }
 
-.main-content2 .text9 {
+.main-content2 .contact {
+  width: 1028px;
+  height: 104.7px;
   background-color: #da6b64;
-  margin: 45px 0 0 0;
-  line-height: 44px;
-  padding: 30px 291px;
-  display: inline-block;
+  margin: 45px auto 0;
   border-radius: 51px;
+}
+
+.main-content2 .text9 {
+  margin: 30px 0 0 0;
+  line-height: 44px;
+  display: inline-block;
   font-size: 28px;
   font-weight: 600;
   letter-spacing: 1.5px;
 }
 
-.main-content2 .text9:hover {
+.main-content2 .contact:hover {
   background-color: #d84940;
+  cursor: pointer;
 }
 
 .main-content2 .text10 {
@@ -474,6 +486,9 @@ body {
     width: 100%;
     height: 464px;
   }
+  .main-content2 br {
+    display: none;
+  }
   .main-content2 .text7 {
     margin: 0;
     padding-top: 30px;
@@ -498,45 +513,222 @@ body {
             box-sizing: border-box;
     letter-spacing: 1.5px;
     border-radius: 4px;
-    line-height: 23px;
+    line-height: 20px;
     padding: 0.4px 0;
   }
-  .main-content2 .text9 {
+  .main-content2 .contact {
+    max-width: 1028px;
+    height: 78.7px;
     background-color: #da6b64;
-    line-height: 28.8px;
-    padding: 30px 291px;
-    display: inline-block;
+    margin: 10px 80px 0;
     border-radius: 51px;
+  }
+  .main-content2 .text9 {
+    margin: 25px 0 0 0;
+    line-height: 28.8px;
+    display: inline-block;
     font-size: 18px;
     font-weight: 600;
     letter-spacing: 1.5px;
-    max-width: 346px;
-    width: calc(100% - 20px);
-    margin: 45px auto 0;
   }
-  .main-content2 .text9:hover {
+  .main-content2 .contact:hover {
     background-color: #d84940;
+    cursor: pointer;
   }
   .main-content2 .text10 {
     line-height: 28.8px;
-    margin-top: 67px;
+    margin-top: 29px;
+    margin-bottom: 0;
     font-size: 18px;
     font-weight: 600;
-    letter-spacing: 1.5px;
+    letter-spacing: normal;
   }
   .main-content2 .text11 {
     line-height: 28.8px;
-    margin-top: 32px;
+    margin-top: 28px;
+    margin-bottom: 0;
     font-size: 18px;
     font-weight: 600;
-    letter-spacing: 1.5px;
+    letter-spacing: normal;
   }
   .main-content2 .text12 {
     line-height: 28.8px;
-    margin-top: 32px;
+    margin-top: 28px;
     font-size: 18px;
     font-weight: 600;
+    letter-spacing: normal;
+    margin-bottom: 27px;
+  }
+  .main-content2 .btn2 {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .main-content2 .btn2 .twitter-share-button {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-left: 2px;
+    margin-top: 0.1px;
+  }
+  .main-content2 .btn2 .fb-like {
+    line-height: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main-content2 {
+    height: 493px;
+  }
+  .main-content2 br {
+    display: inline;
+  }
+  .main-content2 .text7 {
+    margin: 0;
+    padding-top: 15px;
+  }
+  .main-content2 .attention {
+    margin: 0 auto;
+    width: 445.67px;
+    height: 20.67px;
+  }
+  .main-content2 .text8 {
+    margin: 10px 0 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    line-height: 20px;
+    padding: 0.4px 0;
+  }
+  .main-content2 .contact {
+    max-width: 591px;
+    height: 107.3px;
+    background-color: #da6b64;
+    margin: 10px auto 0;
+    border-radius: 51px;
+  }
+  .main-content2 .text9 {
+    margin: 25px 0 0 0;
+    line-height: 28.8px;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: normal;
+  }
+  .main-content2 .contact:hover {
+    background-color: #d84940;
+    cursor: pointer;
+  }
+  .main-content2 .text10 {
+    line-height: 24px;
+    margin-top: 26px;
+    margin-bottom: 0;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: normal;
+  }
+  .main-content2 .text11 {
+    line-height: 24px;
+    margin-top: 26px;
+    margin-bottom: 0;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: normal;
+  }
+  .main-content2 .text12 {
+    line-height: 24px;
+    margin-top: 26px;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: normal;
+    margin-bottom: 20px;
+  }
+  .main-content2 .btn2 {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .main-content2 .btn2 .twitter-share-button {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-left: 2px;
+    margin-top: 0.1px;
+  }
+  .main-content2 .btn2 .fb-like {
+    line-height: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .main-content2 {
+    height: 510px;
+  }
+  .main-content2 br {
+    display: inline;
+  }
+  .main-content2 .text7 {
+    margin: 0;
+    padding-top: 15px;
+    font-size: 15px;
+  }
+  .main-content2 .attention {
+    margin: 0 auto;
+    width: 411px;
+    height: 20px;
+  }
+  .main-content2 .text8 {
+    font-size: 13.5px;
     letter-spacing: 1.5px;
+    line-height: 21.6px;
+    padding: 0.4px 0;
+  }
+  .main-content2 .contact {
+    max-width: 727px;
+    height: 94px;
+    margin: 27px 20px 0;
+  }
+  .main-content2 .text9 {
+    margin: 15px 0 0 0;
+    line-height: 32px;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: normal;
+  }
+  .main-content2 .contact:hover {
+    background-color: #d84940;
+    cursor: pointer;
+  }
+  .main-content2 .text10 {
+    line-height: 24px;
+    margin-top: 24px;
+    margin-bottom: 0;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: normal;
+  }
+  .main-content2 .text11 {
+    line-height: 24px;
+    margin-top: 26px;
+    margin-bottom: 0;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: normal;
+  }
+  .main-content2 .text12 {
+    line-height: 24px;
+    margin-top: 26px;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: normal;
     margin-bottom: 27px;
   }
   .main-content2 .btn2 {
