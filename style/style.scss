@@ -602,7 +602,6 @@ body {
             margin: 0 auto;
             width: 445.67px;
             height: 20.67px;
-
         }
         .text8 {
             margin: 10px 0 0;
@@ -697,7 +696,6 @@ body {
             margin: 0 auto;
             width: 411px;
             height: 20px;
-
         }
         .text8 {
             font-size: 13.5px;
@@ -770,9 +768,7 @@ body {
             }
         }
     }
-
 }
-
 
 .main-content3 {
     width: 100%;
@@ -784,6 +780,10 @@ body {
     $bar-style: solid;
     $bar-size: 4px;
     $bar-color: #ebb94d;
+
+    .small-br {
+        display: none;
+    }
 
     .massage {
         margin: 40px 0;
@@ -797,7 +797,6 @@ body {
 
         &::before,
         &::after {
-            box-sizing: border-box;
             content: "";
             width: 50px;
             height: 50px;
@@ -839,7 +838,7 @@ body {
         margin-bottom: 0px;
     }
 
-    :nth-child(5) {
+    .circle {
         width: 80px;
         height: 80px;
         line-height: 80px;
@@ -865,12 +864,16 @@ body {
             line-height: 40px;
             letter-spacing: 1.5px;
             max-width: 860px;
-            width: calc(100% - 10px);
+            width: calc(100% - 40px);
         }
 
         p {
             font-size: 16px;
             line-height: 25.6px;
+
+            .small-br {
+                display: none;
+            }
         }
 
         span {
@@ -884,7 +887,7 @@ body {
             margin-bottom: 0px;
         }
 
-        :nth-child(5) {
+        .circle {
             width: 80px;
             height: 80px;
             line-height: 80px;
@@ -897,6 +900,96 @@ body {
             font-size: 14px;
         }
     }
+}
+
+@media screen and (max-width: 768px) {
+    .main-content3 {
+        height: 674.6px;
+        background-position: bottom;
+
+        .massage {
+            margin: 30px auto 25px;
+            padding: 25px 0 15px;
+            width: 713.76px;
+
+            &::before,
+            &::after {
+                content: "";
+                width: 30px;
+                height: 30px;
+                position: absolute;
+                box-sizing: border-box;
+            }
+        }
+
+        p {
+            letter-spacing: normal;
+            margin-bottom: 30px;
+
+            .small-br {
+                display: inline;
+            }
+
+            br {
+                display: inline;
+            }
+        }
+
+        .space{
+            height: 30px;
+        }
+
+        span {
+            display: inline-block;
+            border-bottom: solid 7px rgb(235, 185, 77);
+            font-weight: 700;
+            line-height: 10px;
+        }
+
+        :nth-child(4) {
+            margin-bottom: 0px;
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .main-content3 {
+        height: 674.6px;
+        background-position: bottom;
+
+        .massage {
+            padding: 25px 0 15px;
+            width: 95%;
+            font-size: 18px;
+        }
+
+        p {
+            font-size: 15px;
+            letter-spacing: normal;
+            margin-bottom: 30px;
+            line-height: 24px;
+
+            .small-br {
+                display: inline;
+            }
+
+            br {
+                display: inline;
+            }
+        }
+
+        span {
+            display: inline-block;
+            border-bottom: solid 7px rgb(235, 185, 77);
+            font-weight: 700;
+            line-height: 10px;
+        }
+
+        :nth-child(4) {
+            margin-bottom: 0px;
+        }
+    }
+
 }
 
 .main-content4 {
