@@ -4,12 +4,13 @@ body {
     padding-top: 75px;
 }
 
-.contain {
+.container {
     padding: 0;
     margin: 0;
 }
 
 .header-wrapper {
+    box-sizing: border-box;
     position: fixed;
     height: 75px;
     top: 0;
@@ -378,71 +379,394 @@ body {
     width: 100%;
     height: 604px;
 
-    :first-child {
+    br {
+        display: none;
+    }
+
+    .text7 {
         margin: 0;
         padding-top: 30px;
         line-height: 32px;
         font-size: 20px;
         font-weight: 600;
-        letter-spacing: 1.2px;
+        letter-spacing: 1.5px;
     }
 
-    :nth-child(2) {
+    .attention {
+        margin: 0 auto;
+        width: 524.15px;
+        height: 25.33px;
+    }
+
+    .text8 {
         color: #c7254e;
-        line-height: 25px;
-        font-size: 12px;
-        display: inline-block;
+        font-family: "MS Gothic";
+        background-color: #f9f2f4;
         font-size: 18px;
         font-weight: 600;
-        margin: 12.5px 0 2.5px 0;
-        font-family: "MS Gothic";
-        letter-spacing: 1.2px;
-        background-color: #f9f2f4;
-        padding: 1px 2px;
-        border-radius: 5px;
+        margin: 10px 0 0;
+        box-sizing: border-box;
+        letter-spacing: 1.5px;
+        border-radius: 4px;
+        line-height: 25px;
+        padding: 0.4px 0;
     }
 
-    :nth-child(3) {
+    .contact {
+        width: 1028px;
+        height: 104.7px;
         background-color: #da6b64;
-        margin: 45px 0 0 0;
-        line-height: 44px;
-        padding: 30px 286px;
-        display: inline-block;
+        margin: 45px auto 0;
         border-radius: 51px;
+    }
+
+    .text9 {
+        margin: 30px 0 0 0;
+        line-height: 44px;
+        display: inline-block;
         font-size: 28px;
         font-weight: 600;
-        letter-spacing: 1.2px;
+        letter-spacing: 1.5px;
     }
 
-    :nth-child(3):hover {
+    .contact:hover {
         background-color: #d84940;
+        cursor: pointer;
     }
 
-    :nth-child(4) {
-        line-height: 33px;
+    .text10 {
+        line-height: 33.6px;
         margin-top: 67px;
-        font-size: 18px;
         font-weight: 600;
-        font-size: 22px;
-        letter-spacing: 1px;
+        font-size: 21px;
+        letter-spacing: 1.5px;
     }
 
-    :nth-child(5) {
-        line-height: 33px;
+    .text11 {
+        line-height: 33.6px;
         margin-top: 32px;
-        font-size: 18px;
         font-weight: 600;
-        font-size: 22px;
-        letter-spacing: 1px;
+        font-size: 21px;
+        letter-spacing: 1.5px;
     }
 
-    :nth-child(6) {
-        line-height: 33px;
+    .text12 {
+        line-height: 33.6px;
         margin-top: 32px;
-        font-size: 18px;
         font-weight: 600;
-        font-size: 22px;
-        letter-spacing: 1px;
+        font-size: 21px;
+        letter-spacing: 1.5px;
+        margin-bottom: 27px;
+    }
+
+    .btn2 {
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+
+        .twitter-share-button {
+            margin-left: 5px;
+            margin-right: 5px;
+            margin-left: 2px;
+            margin-top: 0.1px;
+        }
+
+        .fb-like {
+            line-height: 0;
+        }
+    }
+}
+
+@media screen and (max-width: 1190px) {
+    .main-content2 {
+        text-align: center;
+        color: #fff;
+        background-color: #ebb94d;
+        width: 100%;
+        height: 464px;
+
+        br {
+            display: none;
+        }
+
+        .text7 {
+            margin: 0;
+            padding-top: 30px;
+            line-height: 25.6px;
+            font-size: 16px;
+            font-weight: 600;
+            letter-spacing: 1.5px;
+        }
+
+        .attention {
+            margin: 0 auto;
+            width: 445.67px;
+            height: 20.67px;
+        }
+        .text8 {
+            color: #c7254e;
+            font-family: "MS Gothic";
+            background-color: #f9f2f4;
+            font-size: 14.4px;
+            font-weight: 600;
+            margin: 10px 0 0;
+            box-sizing: border-box;
+            letter-spacing: 1.5px;
+            border-radius: 4px;
+            line-height: 20px;
+            padding: 0.4px 0;
+        }
+
+        .contact {
+            max-width: 1028px;
+            height: 78.7px;
+            background-color: #da6b64;
+            margin: 10px 80px 0;
+            border-radius: 51px;
+        }
+
+        .text9 {
+            margin: 25px 0 0 0;
+            line-height: 28.8px;
+            display: inline-block;
+            font-size: 18px;
+            font-weight: 600;
+            letter-spacing: 1.5px;
+        }
+
+        .contact:hover {
+            background-color: #d84940;
+            cursor: pointer;
+        }
+
+        .text10 {
+            line-height: 28.8px;
+            margin-top: 29px;
+            margin-bottom: 0;
+            font-size: 18px;
+            font-weight: 600;
+            letter-spacing: normal;
+        }
+
+        .text11 {
+            line-height: 28.8px;
+            margin-top: 28px;
+            margin-bottom: 0;
+            font-size: 18px;
+            font-weight: 600;
+            letter-spacing: normal;
+        }
+
+        .text12 {
+            line-height: 28.8px;
+            margin-top: 28px;
+            font-size: 18px;
+            font-weight: 600;
+            letter-spacing: normal;
+            margin-bottom: 27px;
+        }
+
+        .btn2 {
+            box-sizing: border-box;
+            display: flex;
+            justify-content: center;
+
+            .twitter-share-button {
+                margin-left: 5px;
+                margin-right: 5px;
+                margin-left: 2px;
+                margin-top: 0.1px;
+            }
+
+            .fb-like {
+                line-height: 0;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main-content2 {
+        height: 493px;
+
+        br {
+            display: inline;
+        }
+
+        .text7 {
+            margin: 0;
+            padding-top: 15px;
+        }
+
+        .attention {
+            margin: 0 auto;
+            width: 445.67px;
+            height: 20.67px;
+        }
+        .text8 {
+            margin: 10px 0 0;
+            box-sizing: border-box;
+            line-height: 20px;
+            padding: 0.4px 0;
+        }
+
+        .contact {
+            max-width: 591px;
+            height: 107.3px;
+            background-color: #da6b64;
+            margin: 10px auto 0;
+            border-radius: 51px;
+        }
+
+        .text9 {
+            margin: 25px 0 0 0;
+            line-height: 28.8px;
+            display: inline-block;
+            font-size: 18px;
+            font-weight: 600;
+            letter-spacing: normal;
+        }
+
+        .contact:hover {
+            background-color: #d84940;
+            cursor: pointer;
+        }
+
+        .text10 {
+            line-height: 24px;
+            margin-top: 26px;
+            margin-bottom: 0;
+            font-size: 15px;
+            font-weight: 600;
+            letter-spacing: normal;
+        }
+
+        .text11 {
+            line-height: 24px;
+            margin-top: 26px;
+            margin-bottom: 0;
+            font-size: 15px;
+            font-weight: 600;
+            letter-spacing: normal;
+        }
+
+        .text12 {
+            line-height: 24px;
+            margin-top: 26px;
+            font-size: 15px;
+            font-weight: 600;
+            letter-spacing: normal;
+            margin-bottom: 20px;
+        }
+
+        .btn2 {
+            box-sizing: border-box;
+            display: flex;
+            justify-content: center;
+
+            .twitter-share-button {
+                margin-left: 5px;
+                margin-right: 5px;
+                margin-left: 2px;
+                margin-top: 0.1px;
+            }
+
+            .fb-like {
+                line-height: 0;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .main-content2 {
+        height: 510px;
+
+        br {
+            display: inline;
+        }
+
+        .text7 {
+            margin: 0;
+            padding-top: 15px;
+            font-size: 15px;
+        }
+
+        .attention {
+            margin: 0 auto;
+            width: 411px;
+            height: 20px;
+        }
+        .text8 {
+            font-size: 13.5px;
+            letter-spacing: 1.5px;
+            line-height: 21.6px;
+            padding: 0.4px 0;
+        }
+
+        .contact {
+            max-width: 727px;
+            height: 94px;
+            margin: 27px 20px 0;
+        }
+
+        .text9 {
+            margin: 15px 0 0 0;
+            line-height: 32px;
+            display: inline-block;
+            font-size: 20px;
+            font-weight: 600;
+            letter-spacing: normal;
+        }
+
+        .contact:hover {
+            background-color: #d84940;
+            cursor: pointer;
+        }
+
+        .text10 {
+            line-height: 24px;
+            margin-top: 24px;
+            margin-bottom: 0;
+            font-size: 15px;
+            font-weight: 600;
+            letter-spacing: normal;
+        }
+
+        .text11 {
+            line-height: 24px;
+            margin-top: 26px;
+            margin-bottom: 0;
+            font-size: 15px;
+            font-weight: 600;
+            letter-spacing: normal;
+        }
+
+        .text12 {
+            line-height: 24px;
+            margin-top: 26px;
+            font-size: 15px;
+            font-weight: 600;
+            letter-spacing: normal;
+            margin-bottom: 27px;
+        }
+
+        .btn2 {
+            box-sizing: border-box;
+            display: flex;
+            justify-content: center;
+
+            .twitter-share-button {
+                margin-left: 5px;
+                margin-right: 5px;
+                margin-left: 2px;
+                margin-top: 0.1px;
+            }
+
+            .fb-like {
+                line-height: 0;
+            }
+        }
     }
 }
 
@@ -452,13 +776,18 @@ body {
     text-align: center;
     background-image: url(../img/main2.jpg);
     background-size: cover;
+    background-position: center;
     $bar-style: solid;
     $bar-size: 4px;
     $bar-color: #ebb94d;
 
+    .small-br {
+        display: none;
+    }
+
     .massage {
         margin: 40px 0;
-        padding: 30px 76px;
+        padding: 35px 76px 25px;
         display: inline-block;
         position: relative;
         font-size: 28px;
@@ -491,26 +820,25 @@ body {
 
     p {
         font-size: 20px;
-        font-weight: 200;
+        font-weight: 300;
         line-height: 32px;
         margin-bottom: 24px;
-        letter-spacing: 1.2px;
+        letter-spacing: 1.5px;
         margin-top: 0;
     }
 
     span {
         display: inline-block;
-        line-height: 0.8;
-        border-bottom: solid 10px rgb(235, 185, 77);
-        font-weight: 600;
-        line-height: 20px;
+        border-bottom: solid 9px rgb(235, 185, 77);
+        font-weight: 700;
+        line-height: 14px;
     }
 
     :nth-child(4) {
         margin-bottom: 0px;
     }
 
-    :nth-child(5) {
+    .circle {
         width: 80px;
         height: 80px;
         line-height: 80px;
@@ -522,6 +850,146 @@ body {
         color: white;
         font-size: 14px;
     }
+}
+
+@media screen and (max-width: 1190px) {
+    .main-content3 {
+        .massage {
+            margin: 40px auto;
+            padding: 35px 0 25px;
+            display: inline-block;
+            position: relative;
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 40px;
+            letter-spacing: 1.5px;
+            max-width: 860px;
+            width: calc(100% - 40px);
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 25.6px;
+
+            .small-br {
+                display: none;
+            }
+        }
+
+        span {
+            display: inline-block;
+            border-bottom: solid 7px rgb(235, 185, 77);
+            font-weight: 700;
+            line-height: 10px;
+        }
+
+        :nth-child(4) {
+            margin-bottom: 0px;
+        }
+
+        .circle {
+            width: 80px;
+            height: 80px;
+            line-height: 80px;
+            border-radius: 50%;
+            margin: 0;
+            background-color: #ebb94d;
+            display: inline-block;
+            margin-top: 140px;
+            color: white;
+            font-size: 14px;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main-content3 {
+        height: 674.6px;
+        background-position: bottom;
+
+        .massage {
+            margin: 30px auto 25px;
+            padding: 25px 0 15px;
+            width: 713.76px;
+
+            &::before,
+            &::after {
+                content: "";
+                width: 30px;
+                height: 30px;
+                position: absolute;
+                box-sizing: border-box;
+            }
+        }
+
+        p {
+            letter-spacing: normal;
+            margin-bottom: 30px;
+
+            .small-br {
+                display: inline;
+            }
+
+            br {
+                display: inline;
+            }
+        }
+
+        .space{
+            height: 30px;
+        }
+
+        span {
+            display: inline-block;
+            border-bottom: solid 7px rgb(235, 185, 77);
+            font-weight: 700;
+            line-height: 10px;
+        }
+
+        :nth-child(4) {
+            margin-bottom: 0px;
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .main-content3 {
+        height: 674.6px;
+        background-position: bottom;
+
+        .massage {
+            padding: 25px 0 15px;
+            width: 95%;
+            font-size: 18px;
+        }
+
+        p {
+            font-size: 15px;
+            letter-spacing: normal;
+            margin-bottom: 30px;
+            line-height: 24px;
+
+            .small-br {
+                display: inline;
+            }
+
+            br {
+                display: inline;
+            }
+        }
+
+        span {
+            display: inline-block;
+            border-bottom: solid 7px rgb(235, 185, 77);
+            font-weight: 700;
+            line-height: 10px;
+        }
+
+        :nth-child(4) {
+            margin-bottom: 0px;
+        }
+    }
+
 }
 
 .main-content4 {
@@ -576,7 +1044,7 @@ body {
     }
 
     .introduction-wrapper {
-        width: 1170px;
+        width: 1130px;
         height: 253px;
         margin: 0 auto;
         box-sizing: border-box;
