@@ -5,7 +5,7 @@ body {
   padding-top: 75px;
 }
 
-.contain {
+.container {
   padding: 0;
   margin: 0;
 }
@@ -373,71 +373,191 @@ body {
   height: 604px;
 }
 
-.main-content2 :first-child {
+.main-content2 .text7 {
   margin: 0;
   padding-top: 30px;
   line-height: 32px;
   font-size: 20px;
   font-weight: 600;
-  letter-spacing: 1.2px;
+  letter-spacing: 1.5px;
 }
 
-.main-content2 :nth-child(2) {
+.main-content2 .attention {
+  margin: 0 auto;
+  width: 524.15px;
+  height: 25.33px;
+}
+
+.main-content2 .text8 {
   color: #c7254e;
-  line-height: 25px;
-  font-size: 12px;
-  display: inline-block;
+  font-family: "MS Gothic";
+  background-color: #f9f2f4;
   font-size: 18px;
   font-weight: 600;
-  margin: 12.5px 0 2.5px 0;
-  font-family: "MS Gothic";
-  letter-spacing: 1.2px;
-  background-color: #f9f2f4;
-  padding: 1px 2px;
-  border-radius: 5px;
+  margin: 10px 0 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  letter-spacing: 1.5px;
+  border-radius: 4px;
+  line-height: 25px;
+  padding: 0.4px 0;
 }
 
-.main-content2 :nth-child(3) {
+.main-content2 .text9 {
   background-color: #da6b64;
   margin: 45px 0 0 0;
   line-height: 44px;
-  padding: 30px 286px;
+  padding: 30px 291px;
   display: inline-block;
   border-radius: 51px;
   font-size: 28px;
   font-weight: 600;
-  letter-spacing: 1.2px;
+  letter-spacing: 1.5px;
 }
 
-.main-content2 :nth-child(3):hover {
+.main-content2 .text9:hover {
   background-color: #d84940;
 }
 
-.main-content2 :nth-child(4) {
-  line-height: 33px;
+.main-content2 .text10 {
+  line-height: 33.6px;
   margin-top: 67px;
-  font-size: 18px;
   font-weight: 600;
-  font-size: 22px;
-  letter-spacing: 1px;
+  font-size: 21px;
+  letter-spacing: 1.5px;
 }
 
-.main-content2 :nth-child(5) {
-  line-height: 33px;
+.main-content2 .text11 {
+  line-height: 33.6px;
   margin-top: 32px;
-  font-size: 18px;
   font-weight: 600;
-  font-size: 22px;
-  letter-spacing: 1px;
+  font-size: 21px;
+  letter-spacing: 1.5px;
 }
 
-.main-content2 :nth-child(6) {
-  line-height: 33px;
+.main-content2 .text12 {
+  line-height: 33.6px;
   margin-top: 32px;
-  font-size: 18px;
   font-weight: 600;
-  font-size: 22px;
-  letter-spacing: 1px;
+  font-size: 21px;
+  letter-spacing: 1.5px;
+  margin-bottom: 27px;
+}
+
+.main-content2 .btn2 {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main-content2 .btn2 .twitter-share-button {
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-left: 2px;
+  margin-top: 0.1px;
+}
+
+.main-content2 .btn2 .fb-like {
+  line-height: 0;
+}
+
+@media screen and (max-width: 1190px) {
+  .main-content2 {
+    text-align: center;
+    color: #fff;
+    background-color: #ebb94d;
+    width: 100%;
+    height: 464px;
+  }
+  .main-content2 .text7 {
+    margin: 0;
+    padding-top: 30px;
+    line-height: 25.6px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+  }
+  .main-content2 .attention {
+    margin: 0 auto;
+    width: 445.67px;
+    height: 20.67px;
+  }
+  .main-content2 .text8 {
+    color: #c7254e;
+    font-family: "MS Gothic";
+    background-color: #f9f2f4;
+    font-size: 14.4px;
+    font-weight: 600;
+    margin: 10px 0 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    letter-spacing: 1.5px;
+    border-radius: 4px;
+    line-height: 23px;
+    padding: 0.4px 0;
+  }
+  .main-content2 .text9 {
+    background-color: #da6b64;
+    line-height: 28.8px;
+    padding: 30px 291px;
+    display: inline-block;
+    border-radius: 51px;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    max-width: 346px;
+    width: calc(100% - 20px);
+    margin: 45px auto 0;
+  }
+  .main-content2 .text9:hover {
+    background-color: #d84940;
+  }
+  .main-content2 .text10 {
+    line-height: 28.8px;
+    margin-top: 67px;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+  }
+  .main-content2 .text11 {
+    line-height: 28.8px;
+    margin-top: 32px;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+  }
+  .main-content2 .text12 {
+    line-height: 28.8px;
+    margin-top: 32px;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    margin-bottom: 27px;
+  }
+  .main-content2 .btn2 {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .main-content2 .btn2 .twitter-share-button {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-left: 2px;
+    margin-top: 0.1px;
+  }
+  .main-content2 .btn2 .fb-like {
+    line-height: 0;
+  }
 }
 
 .main-content3 {
@@ -446,11 +566,12 @@ body {
   text-align: center;
   background-image: url(../img/main2.jpg);
   background-size: cover;
+  background-position: center;
 }
 
 .main-content3 .massage {
   margin: 40px 0;
-  padding: 30px 76px;
+  padding: 35px 76px 25px;
   display: inline-block;
   position: relative;
   font-size: 28px;
@@ -460,6 +581,8 @@ body {
 }
 
 .main-content3 .massage::before, .main-content3 .massage::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   content: "";
   width: 50px;
   height: 50px;
@@ -482,19 +605,18 @@ body {
 
 .main-content3 p {
   font-size: 20px;
-  font-weight: 200;
+  font-weight: 300;
   line-height: 32px;
   margin-bottom: 24px;
-  letter-spacing: 1.2px;
+  letter-spacing: 1.5px;
   margin-top: 0;
 }
 
 .main-content3 span {
   display: inline-block;
-  line-height: 0.8;
-  border-bottom: solid 10px #ebb94d;
-  font-weight: 600;
-  line-height: 20px;
+  border-bottom: solid 9px #ebb94d;
+  font-weight: 700;
+  line-height: 14px;
 }
 
 .main-content3 :nth-child(4) {
@@ -512,6 +634,46 @@ body {
   margin-top: 95px;
   color: white;
   font-size: 14px;
+}
+
+@media screen and (max-width: 1190px) {
+  .main-content3 .massage {
+    margin: 40px auto;
+    padding: 35px 0 25px;
+    display: inline-block;
+    position: relative;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 1.5px;
+    max-width: 860px;
+    width: calc(100% - 10px);
+  }
+  .main-content3 p {
+    font-size: 16px;
+    line-height: 25.6px;
+  }
+  .main-content3 span {
+    display: inline-block;
+    border-bottom: solid 7px #ebb94d;
+    font-weight: 700;
+    line-height: 10px;
+  }
+  .main-content3 :nth-child(4) {
+    margin-bottom: 0px;
+  }
+  .main-content3 :nth-child(5) {
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    border-radius: 50%;
+    margin: 0;
+    background-color: #ebb94d;
+    display: inline-block;
+    margin-top: 140px;
+    color: white;
+    font-size: 14px;
+  }
 }
 
 .main-content4 {
@@ -563,7 +725,7 @@ body {
 }
 
 .main-content4 .introduction-wrapper {
-  width: 1170px;
+  width: 1130px;
   height: 253px;
   margin: 0 auto;
   -webkit-box-sizing: border-box;
