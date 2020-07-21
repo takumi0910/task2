@@ -1525,11 +1525,10 @@ body {
   text-align: center;
   color: white;
   width: 100%;
-  /*img指定なし*/
 }
 
-.main-content6 img {
-  width: 15%;
+.main-content6 .s-br {
+  display: none;
 }
 
 .main-content6 p {
@@ -1544,6 +1543,36 @@ body {
 .main-content6 p span {
   color: #ebb94d;
   line-height: 30px;
+}
+
+@media screen and (max-width: 1190px) {
+  .main-content6 {
+    height: 130.67px;
+  }
+  .main-content6 p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .main-content6 p span {
+    line-height: 24px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main-content6 {
+    height: 96px;
+  }
+  .main-content6 p {
+    padding: 20px 0;
+    font-size: 12px;
+    line-height: 19.2px;
+  }
+  .main-content6 p span {
+    line-height: 18px;
+  }
+  .main-content6 .s-br {
+    display: inline;
+  }
 }
 
 .main-content7 {

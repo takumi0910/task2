@@ -1352,7 +1352,7 @@ body {
             font-size: 16px;
             margin-top: 15px;
 
-            .sp-br{
+            .sp-br {
                 display: none;
             }
         }
@@ -1361,7 +1361,6 @@ body {
 
 @media screen and (max-width: 1199px) {
     .main-content5 {
-
         .contents2 {
             width: 310.4px;
             height: auto;
@@ -1521,7 +1520,7 @@ body {
                 margin-bottom: 0;
                 letter-spacing: 1.5px;
 
-                .sp-br{
+                .sp-br {
                     display: inline;
                 }
             }
@@ -1599,7 +1598,7 @@ body {
                 margin-bottom: 0;
                 letter-spacing: 1.5px;
 
-                .sp-br{
+                .sp-br {
                     display: none;
                 }
             }
@@ -1613,9 +1612,8 @@ body {
     color: white;
     width: 100%;
 
-    /*img指定なし*/
-    img {
-        width: 15%;
+    .s-br {
+        display: none;
     }
 
     p {
@@ -1629,6 +1627,41 @@ body {
         span {
             color: #ebb94d;
             line-height: 30px;
+        }
+    }
+}
+
+@media screen and (max-width: 1190px) {
+    .main-content6 {
+        height: 130.67px;
+
+        p {
+            font-size: 16px;
+            line-height: 24px;
+
+            span{
+                line-height: 24px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main-content6 {
+        height: 96px;
+
+        p {
+            padding: 20px 0;
+            font-size: 12px;
+            line-height: 19.2px;
+
+            span {
+                line-height: 18px;
+            }
+        }
+
+        .s-br {
+            display: inline;
         }
     }
 }
