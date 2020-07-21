@@ -913,6 +913,15 @@ body {
   .main-content3 :nth-child(4) {
     margin-bottom: 0px;
   }
+  .main-content3 .circle {
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    font-weight: normal;
+    margin-top: 50px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -946,6 +955,9 @@ body {
   .main-content3 :nth-child(4) {
     margin-bottom: 0px;
   }
+  .main-content3 .circle {
+    margin-top: 75px;
+  }
 }
 
 .main-content4 {
@@ -955,15 +967,26 @@ body {
   background-color: #fef5e0;
 }
 
-.main-content4 .massage {
-  margin: 80px 0 40px;
-  padding: 30px 252px 30px 254px;
-  display: inline-block;
-  position: relative;
+.main-content4 .s-br {
+  display: none;
+}
+
+.main-content4 h1 {
+  margin: 20px 0 10px;
   font-size: 28px;
   font-weight: 600;
   line-height: 40px;
   letter-spacing: 1.5px;
+}
+
+.main-content4 .massage {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 80px auto 40px;
+  padding: 15px 30px;
+  width: 860px;
+  display: inline-block;
+  position: relative;
 }
 
 .main-content4 .massage::before, .main-content4 .massage::after {
@@ -989,7 +1012,7 @@ body {
 
 .main-content4 p {
   line-height: 32px;
-  letter-spacing: 1.2px;
+  letter-spacing: 1.5px;
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 30px;
@@ -997,8 +1020,10 @@ body {
 }
 
 .main-content4 .introduction-wrapper {
-  width: 1130px;
-  height: 253px;
+  width: 1170px;
+  max-width: calc(100% - 40px);
+  height: auto;
+  padding: 30px;
   margin: 0 auto;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -1008,12 +1033,12 @@ body {
 }
 
 .main-content4 .introduction-wrapper p {
-  margin-top: 32px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   letter-spacing: 1.5px;
 }
 
 .main-content4 .introduction-wrapper .introduction {
+  margin-top: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1022,19 +1047,168 @@ body {
           align-items: flex-end;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  padding: 0 228px 0 228px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .main-content4 .introduction-wrapper .introduction .contents {
-  margin: 0 auto;
+  padding: 10px 13px 10px;
+}
+
+.main-content4 .introduction-wrapper .introduction .contents img {
+  vertical-align: bottom;
 }
 
 .main-content4 .introduction-wrapper .introduction p {
+  margin: 10px 0 10px;
   font-size: 12px;
-  font-weight: 200;
-  line-height: 18.5px;
-  letter-spacing: 1.3px;
-  margin: 0;
+  font-weight: 300;
+  line-height: 19.2px;
+  letter-spacing: 1.5px;
+}
+
+@media screen and (max-width: 1190px) {
+  .main-content4 {
+    height: auto;
+    padding-bottom: 70px;
+  }
+  .main-content4 .s-br {
+    display: none;
+  }
+  .main-content4 h1 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 1.5px;
+  }
+  .main-content4 .massage {
+    margin: 80px auto 40px;
+    width: 860px;
+    max-width: calc(100% - 40px);
+  }
+  .main-content4 p {
+    line-height: 25.6px;
+    letter-spacing: 1.5px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    margin-top: 0;
+  }
+  .main-content4 .introduction-wrapper {
+    width: 1170px;
+    max-width: calc(100% - 40px);
+    height: auto;
+    padding: 30px;
+    margin: 0 auto;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border: solid 2px #ebb94d;
+    border-radius: 5px;
+    background-color: white;
+  }
+  .main-content4 .introduction-wrapper p {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 25.6px;
+    letter-spacing: 1.5px;
+    margin-bottom: 10px;
+    letter-spacing: 1.5px;
+  }
+  .main-content4 .introduction-wrapper .introduction {
+    margin-top: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .main-content4 .introduction-wrapper .introduction .contents {
+    padding: 10px 13px 10px;
+  }
+  .main-content4 .introduction-wrapper .introduction .contents img {
+    vertical-align: bottom;
+  }
+  .main-content4 .introduction-wrapper .introduction p {
+    margin: 10px 0 10px;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 19.2px;
+    letter-spacing: 1.5px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main-content4 .s-br {
+    display: inline;
+  }
+  .main-content4 .massage {
+    margin: 60px auto 15px;
+    padding: 10px;
+  }
+  .main-content4 .massage::before, .main-content4 .massage::after {
+    content: "";
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .main-content4 .introduction-wrapper {
+    padding: 10px;
+  }
+  .main-content4 .introduction-wrapper .s-br {
+    display: inline;
+  }
+  .main-content4 .introduction-wrapper .introduction .contents {
+    padding: 5px 7.5px 5px;
+  }
+  .main-content4 .introduction-wrapper .introduction .contents .contents-image1 {
+    width: 32.1px;
+    height: 30px;
+  }
+  .main-content4 .introduction-wrapper .introduction .contents .contents-image2 {
+    width: 31.2px;
+    height: 30px;
+  }
+  .main-content4 .introduction-wrapper .introduction .contents .contents-image3 {
+    width: 23.9px;
+    height: 30px;
+  }
+  .main-content4 .introduction-wrapper .introduction .contents .contents-image4 {
+    width: 31.1px;
+    height: 30px;
+  }
+  .main-content4 .introduction-wrapper .introduction .contents .contents-image5 {
+    width: 75px;
+    height: 30px;
+  }
+  .main-content4 .introduction-wrapper .introduction .contents p {
+    font-size: 10px;
+    line-height: 16px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .main-content4 h1 {
+    font-size: 18px;
+  }
+  .main-content4 p {
+    font-size: 15px;
+    line-height: 24px;
+  }
+  .main-content4 .introduction-wrapper p {
+    font-size: 15px;
+    line-height: 24px;
+  }
 }
 
 .main-content5 {
@@ -1083,7 +1257,8 @@ body {
 }
 
 .main-content5 .contents2 {
-  width: 374px;
+  width: 15%;
+  /*374px;*/
   height: 177px;
   background-color: white;
   border-radius: 6px;
@@ -1093,7 +1268,8 @@ body {
 .main-content5 .contents2 :first-child {
   font-size: 16px;
   line-height: 25px;
-  padding: 0 125px;
+  padding: 0 10%;
+  /*125px;*/
   display: inline-block;
   background-color: #ebb94d;
   border-radius: 4px;
@@ -1121,6 +1297,12 @@ body {
   background-color: #016ea9;
   text-align: center;
   color: white;
+  width: 100%;
+  /*img指定なし*/
+}
+
+.main-content6 img {
+  width: 15%;
 }
 
 .main-content6 p {
