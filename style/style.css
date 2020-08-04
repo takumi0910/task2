@@ -23,10 +23,9 @@ body {
 
 .header {
   margin: 0 auto;
-  padding: 14px 0 26px 0;
+  padding: 14px 0 14px 0;
   max-width: 1170px;
   width: 100%;
-  height: 35px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -110,7 +109,6 @@ body {
     margin: 0 auto;
     padding: 14px 0 10px 0;
     width: calc(100% - 20px);
-    height: 35px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -186,7 +184,6 @@ body {
     margin: 0 auto;
     padding: 8px 0 0px 0;
     width: calc(100% - 20px);
-    height: 54px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -203,9 +200,10 @@ body {
             flex-direction: column-reverse;
   }
   .header .header-left img {
+    position: absolute;
+    top: 26px;
     width: 90px;
     height: 31.39px;
-    margin-bottom: 5.5px;
   }
   .header .header-left p {
     display: inline-block;
@@ -213,7 +211,6 @@ body {
     font-weight: 600;
     margin: 0;
     letter-spacing: normal;
-    line-height: 17px;
   }
   .header .header-right {
     width: 76px;
@@ -347,6 +344,7 @@ body {
 
 @media screen and (max-width: 768px) {
   .main-content1 {
+    background-image: url(../img/sp3.jpg);
     font-size: 18px;
     height: 312px;
   }
@@ -523,9 +521,10 @@ body {
   }
   .main-content2 .contact {
     max-width: 1028px;
+    width: calc(100% - 160px);
     height: 78.7px;
     background-color: #da6b64;
-    margin: 10px 80px 0;
+    margin: 10px auto 0;
     border-radius: 51px;
   }
   .main-content2 .text9 {
@@ -612,6 +611,7 @@ body {
     max-width: 591px;
     height: 107.3px;
     background-color: #da6b64;
+    width: calc(100% - 40px);
     margin: 10px auto 0;
     border-radius: 51px;
   }
@@ -881,7 +881,9 @@ body {
 @media screen and (max-width: 768px) {
   .main-content3 {
     height: 674.6px;
-    background-position: bottom;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
   }
   .main-content3 .massage {
     margin: 30px auto 25px;
@@ -1393,6 +1395,7 @@ body {
 
 @media screen and (max-width: 768px) {
   .main-content5 {
+    background-image: url(../img/sp6.jpg);
     width: 100%;
     height: 726px;
   }
