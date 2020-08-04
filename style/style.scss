@@ -1955,6 +1955,7 @@ body {
     text-align: center;
     background-color: #fef5e0;
     padding: 40px 0 40px 0;
+    font-family: Meiryo;
 
     .br-3 {
         display: none;
@@ -2453,8 +2454,29 @@ body {
 
                 img {
                     text-align: center;
-                    width: 100%;
+                    width: 0;
+                    height: 0;
+                }
+
+                .picture1{
+                    background-image: url(../img/1.jpg);
                     height: 120px;
+                    background-size: cover;
+                    background-position: center;
+                }
+
+                .picture2{
+                    background-image: url(../img/2.jpg);
+                    height: 120px;
+                    background-size: cover;
+                    background-position: center;
+                }
+
+                .picture3{
+                    background-image: url(../img/5.jpg);
+                    height: 120px;
+                    background-size: cover;
+                    background-position: center;
                 }
 
                 h3 {

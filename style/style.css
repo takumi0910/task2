@@ -1847,6 +1847,7 @@ body {
   text-align: center;
   background-color: #fef5e0;
   padding: 40px 0 40px 0;
+  font-family: Meiryo;
 }
 
 .main-content8 .br-3 {
@@ -2323,8 +2324,26 @@ body {
   }
   .main-content8 .contents3-wrapper .contents3 img {
     text-align: center;
-    width: 100%;
+    width: 0;
+    height: 0;
+  }
+  .main-content8 .contents3-wrapper .contents3 .picture1 {
+    background-image: url(../img/1.jpg);
     height: 120px;
+    background-size: cover;
+    background-position: center;
+  }
+  .main-content8 .contents3-wrapper .contents3 .picture2 {
+    background-image: url(../img/2.jpg);
+    height: 120px;
+    background-size: cover;
+    background-position: center;
+  }
+  .main-content8 .contents3-wrapper .contents3 .picture3 {
+    background-image: url(../img/5.jpg);
+    height: 120px;
+    background-size: cover;
+    background-position: center;
   }
   .main-content8 .contents3-wrapper .contents3 h3 {
     font-size: 15px;
