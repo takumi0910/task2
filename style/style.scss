@@ -3762,9 +3762,6 @@ body {
     }
 }
 
-
-
-
 .main-content13 {
     background-color: #016ea9;
     text-align: center;
@@ -3778,6 +3775,31 @@ body {
         line-height: 32px;
         color: white;
         padding: 40px 0;
+    }
+}
+
+@media screen and (max-width: 1190px) {
+    .main-content13 {
+        background-color: #016ea9;
+        text-align: center;
+
+        p {
+            font-size: 16px;
+            line-height: 25.6px;
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .main-content13 {
+        background-color: #016ea9;
+        text-align: center;
+        
+        p {
+            font-size: 15px;
+            line-height: 24px;
+            padding: 20px 0;
+        }
     }
 }
 
