@@ -3270,8 +3270,8 @@ body {
   }
   .main-content11 .contents6-wrapper .contents6 {
     padding: 20px 0 20px 0;
-    margin: 0;
-    width: 800px;
+    margin: 0 0 0 0;
+    max-width: 65.7%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -3282,8 +3282,8 @@ body {
   }
   .main-content11 .contents6-wrapper .contents6 .contents6-left img {
     height: auto;
-    width: 50%;
-    max-width: 100%;
+    width: auto;
+    max-width: 241px;
     border: solid 2px #ebb94d;
     margin: 0 15px 0 0;
   }
