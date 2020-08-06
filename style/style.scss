@@ -5591,18 +5591,20 @@ body {
 .main-content17 {
     background-image: url(../img/3.jpg);
     background-size: cover;
-    height: 446px;
+    height: auto;
     width: 100%;
     color: white;
     letter-spacing: 1.5px;
     font-weight: 600;
     text-align: center;
     padding: 40px 0 40px;
+    font-family: Meiryo;
 
     h3 {
         font-size: 28px;
         margin: 20px 0 20px;
         line-height: 44px;
+        font-weight: 600;
     }
 
     p {
@@ -5615,9 +5617,11 @@ body {
     .massage4 {
         box-sizing: border-box;
         font-size: 28px;
-        padding: 14px 120px 14px;
+        font-weight: 600;
+        padding: 15px 120px;
         margin-bottom: 20px;
         margin-top: 0;
+        line-height: 40px;
         display: inline-block;
         position: relative;
         $bar-style: solid;
@@ -5644,6 +5648,73 @@ body {
             border-bottom: $bar-style $bar-size $bar-color;
             right: 0;
             bottom: 0;
+        }
+    }
+}
+
+@media screen and (max-width: 1190px){
+    .main-content17 {
+        background-image: url(../img/3.jpg);
+        background-size: cover;
+        height: auto;
+        width: 100%;
+        color: white;
+        letter-spacing: 1.5px;
+        font-weight: 600;
+        text-align: center;
+        padding: 40px 0 40px;
+        font-family: Meiryo;
+    
+        h3 {
+            font-size: 24px;
+            margin: 20px 0 20px;
+            line-height: 38.4px;
+            font-weight: 600;
+        }
+    
+        p {
+            font-size: 16px;
+            margin-bottom: 40px;
+            margin-top: 0;
+            line-height: 25.6px;
+        }
+    
+        .massage4 {
+            box-sizing: border-box;
+            font-size: 24px;
+            font-weight: 600;
+            max-width: 860px;
+            width: calc(100% - 40px);
+            padding: 15px 30px;
+            margin: 0 auto 20px;
+            line-height: 40px;
+            display: inline-block;
+            position: relative;
+            $bar-style: solid;
+            $bar-size: 4px;
+            $bar-color: #ffffff;
+    
+            &::before,
+            &::after {
+                content: "";
+                width: 50px;
+                height: 50px;
+                position: absolute;
+            }
+    
+            &::before {
+                border-left: $bar-style $bar-size $bar-color;
+                border-top: $bar-style $bar-size $bar-color;
+                top: 0;
+                left: 0;
+            }
+    
+            &::after {
+                border-right: $bar-style $bar-size $bar-color;
+                border-bottom: $bar-style $bar-size $bar-color;
+                right: 0;
+                bottom: 0;
+            }
         }
     }
 }
