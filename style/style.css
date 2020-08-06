@@ -4461,7 +4461,85 @@ body {
   letter-spacing: 1.5px;
   margin-top: 20px;
   margin-bottom: 0;
-  right: 27.5%;
+}
+
+@media screen and (max-width: 1190px) {
+  .main-content15 {
+    height: 390.6px;
+    padding: 40px;
+    color: white;
+  }
+  .main-content15 .contents9 {
+    width: calc(100% - 40px);
+    margin: 0 auto;
+  }
+  .main-content15 p {
+    font-size: 12px;
+    line-height: 19.2px;
+    font-weight: 300;
+    letter-spacing: 0;
+  }
+  .main-content15 li {
+    list-style: none;
+    font-size: 14px;
+    line-height: 22.4px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    margin-bottom: 10px;
+    margin-top: 0;
+  }
+  .main-content15 h4 {
+    font-size: 16px;
+    line-height: 25.6px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    margin-top: 20px;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main-content15 {
+    height: 390.6px;
+    width: 100%;
+    color: white;
+    background-image: url(../img/sp5.jpg);
+  }
+  .main-content15 .contents9 {
+    width: calc(100% - 40px);
+    margin: 0 auto;
+  }
+  .main-content15 h3 {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .main-content15 {
+    height: auto;
+    padding: 20px 15px;
+  }
+  .main-content15 .contents9 {
+    width: calc(100% - 40px);
+    margin: 0 auto;
+  }
+  .main-content15 li {
+    list-style: none;
+    font-size: 12px;
+    line-height: 19.2px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    margin-bottom: 10px;
+    margin-top: 0;
+  }
+  .main-content15 h4 {
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
 }
 
 .main-content16 {
