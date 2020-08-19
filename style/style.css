@@ -5,7 +5,7 @@ body {
   padding-top: 75px;
 }
 
-.container {
+.contain {
   padding: 0;
   margin: 0;
 }
@@ -92,102 +92,42 @@ body {
 }
 
 @media screen and (max-width: 1190px) {
-  body {
-    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Meiryo, Osaka, "MS PGothic", sans-serif;
-    margin: 0px;
-    padding-top: 75px;
-  }
-  .header-wrapper {
-    position: fixed;
-    top: 0;
-    z-index: 100;
-    max-width: 1190px;
-    width: 100%;
-    background-color: white;
-  }
   .header {
-    margin: 0 auto;
     padding: 14px 0 10px 0;
     width: calc(100% - 20px);
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    background-color: white;
-  }
-  .header .header-left {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  .header .header-left img {
-    width: 128px;
-    height: 44.65px;
   }
   .header .header-left p {
-    width: 263.5px;
     line-height: 18px;
     font-size: 12px;
     font-weight: 600;
     letter-spacing: normal;
-    display: inline-block;
     margin: 23px 0 0 6px;
   }
   .header .header-right {
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
     font-size: 12px;
     font-weight: 300;
     height: 41px;
-    border: 1px solid #da6b64;
     padding: 10px 38px 11px 39px;
-    background-color: #da6b64;
-    border-radius: 25px;
     width: 261px;
-    margin-top: 2px;
-  }
-  .header .header-right:hover {
-    background-color: #d84940;
-    cursor: pointer;
   }
   .header .header-right p {
-    text-align: right;
-    color: #fff;
     letter-spacing: normal;
-    margin: 0;
-    display: inline-block;
-  }
-  .header .header-right a {
-    font-size: 0;
-  }
-  .header .header-right img {
-    width: 0;
-    height: 0;
   }
 }
 
 @media screen and (max-width: 768px) {
   body {
-    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Meiryo, Osaka, "MS PGothic", sans-serif;
-    margin: 0px;
     padding-top: 62px;
   }
   .header-wrapper {
-    position: fixed;
-    top: 0;
-    z-index: 100;
     max-width: 768px;
-    width: 100%;
-    background-color: white;
     height: 62px;
   }
   .header {
-    margin: 0 auto;
     padding: 8px 0 0px 0;
-    width: calc(100% - 20px);
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    background-color: white;
     position: relative;
   }
   .header .header-left {
@@ -206,11 +146,8 @@ body {
     height: 31.39px;
   }
   .header .header-left p {
-    display: inline-block;
     font-size: 12px;
     font-weight: 600;
-    margin: 0;
-    letter-spacing: normal;
   }
   .header .header-right {
     width: 76px;
@@ -259,17 +196,7 @@ body {
   .header-wrapper {
     max-width: 767px;
   }
-  .header-wrapper .header .header-left {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
-  }
   .header-wrapper .header .header-left p {
-    display: inline-block;
     font-size: 10px;
     font-weight: 600;
     margin: 0;

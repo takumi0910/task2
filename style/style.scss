@@ -4,7 +4,7 @@ body {
     padding-top: 75px;
 }
 
-.container {
+.contain {
     padding: 0;
     margin: 0;
 }
@@ -83,79 +83,30 @@ body {
 }
 
 @media screen and (max-width: 1190px) {
-    body {
-        font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Meiryo, Osaka, "MS PGothic", sans-serif;
-        margin: 0px;
-        padding-top: 75px;
-    }
-
-    .header-wrapper {
-        position: fixed;
-        top: 0;
-        z-index: 100;
-        max-width: 1190px;
-        width: 100%;
-        background-color: white;
-    }
-
     .header {
-        margin: 0 auto;
         padding: 14px 0 10px 0;
         width: calc(100% - 20px);
-        display: flex;
-        background-color: white;
 
         .header-left {
-            display: flex;
-
-            img {
-                width: 128px;
-                height: 44.65px;
-            }
 
             p {
-                width: 263.5px;
                 line-height: 18px;
                 font-size: 12px;
                 font-weight: 600;
                 letter-spacing: normal;
-                display: inline-block;
                 margin: 23px 0 0 6px;
             }
         }
 
         .header-right {
-            box-sizing: border-box;
             font-size: 12px;
             font-weight: 300;
             height: 41px;
-            border: 1px solid #da6b64;
             padding: 10px 38px 11px 39px;
-            background-color: #da6b64;
-            border-radius: 25px;
             width: 261px;
-            margin-top: 2px;
-
-            &:hover {
-                background-color: #d84940;
-                cursor: pointer;
-            }
 
             p {
-                text-align: right;
-                color: #fff;
                 letter-spacing: normal;
-                margin: 0;
-                display: inline-block;
-            }
-
-            a {
-                font-size: 0;
-            }
-
-            img {
-                width: 0;
-                height: 0;
             }
         }
     }
@@ -163,27 +114,17 @@ body {
 
 @media screen and (max-width: 768px) {
     body {
-        font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Meiryo, Osaka, "MS PGothic", sans-serif;
-        margin: 0px;
         padding-top: 62px;
     }
 
     .header-wrapper {
-        position: fixed;
-        top: 0;
-        z-index: 100;
         max-width: 768px;
-        width: 100%;
-        background-color: white;
         height: 62px;
     }
 
     .header {
-        margin: 0 auto;
         padding: 8px 0 0px 0;
-        width: calc(100% - 20px);
         display: flex;
-        background-color: white;
         position: relative;
 
         .header-left {
@@ -198,11 +139,8 @@ body {
             }
 
             p {
-                display: inline-block;
                 font-size: 12px;
                 font-weight: 600;
-                margin: 0;
-                letter-spacing: normal;
             }
         }
 
@@ -260,11 +198,7 @@ body {
 
         .header {
             .header-left {
-                display: flex;
-                flex-direction: column-reverse;
-
                 p {
-                    display: inline-block;
                     font-size: 10px;
                     font-weight: 600;
                     margin: 0;
