@@ -7,10 +7,12 @@ $(function () {
 });
 
 $(function () {
-  $('.contents8-all').click(function () {
-        $(this).children(".contents8-left").slideToggle(300);
-        $('contents8-left').not($(this).next('contents8-left')).slideUp();
+    $('.contents8-right').click(function () {
+        $(this).next().slideToggle(300);
+        $(".contents8-right").not(this).next().slideUp(300);
+        $(".contents8-right").not(this).removeClass("act");
+        $(this).toggleClass("act");
     });
-    
-  
+
+
 });
