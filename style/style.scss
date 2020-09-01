@@ -2023,8 +2023,6 @@ body {
                     padding: 0 20px 0;
                 }
 
-            
-
                 h3 {
                     text-align: center;
                     font-size: 16px;
@@ -2359,7 +2357,7 @@ body {
                     height: 0;
                 }
 
-                .text7{
+                .text7 {
                     margin-bottom: 18px;
                 }
 
@@ -6675,14 +6673,9 @@ body {
             width: 100%;
             display: inline-block;
             border-radius: 51px;
-
-            p {
-                margin: 0 auto;
-                font-size: 23px;
-                font-weight: 600;
-                letter-spacing: 25px;
-                line-height: 55px;
-            }
+            font-size: 23px;
+            font-weight: 600;
+            letter-spacing: normal;
         }
     }
 }
@@ -6727,19 +6720,16 @@ body {
                 margin-bottom: 0;
 
                 .button4 {
-                    p {
-                        color: white;
-                        background-color: #da6b64;
-                        margin: 32px 0 0 0;
-                        line-height: 55px;
-                        height: 55px;
-                        width: 100%;
-                        display: inline-block;
-                        border-radius: 51px;
-                        font-size: 23px;
-                        font-weight: 600;
-                        letter-spacing: 20px;
-                    }
+                    color: white;
+                    background-color: #da6b64;
+                    margin: 32px 0 0 0;
+                    line-height: 55px;
+                    height: 55px;
+                    width: 100%;
+                    display: inline-block;
+                    border-radius: 51px;
+                    font-size: 23px;
+                    font-weight: 600;
                 }
             }
         }

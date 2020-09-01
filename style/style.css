@@ -6146,14 +6146,9 @@ body {
   width: 100%;
   display: inline-block;
   border-radius: 51px;
-}
-
-.main-content19 .contents12 .button4 p {
-  margin: 0 auto;
   font-size: 23px;
   font-weight: 600;
-  letter-spacing: 25px;
-  line-height: 55px;
+  letter-spacing: normal;
 }
 
 @media screen and (max-width: 1190px) {
@@ -6192,7 +6187,7 @@ body {
     font-family: Meiryo;
     margin-bottom: 0;
   }
-  .main-content19 .contents12 #input4 .button4 p {
+  .main-content19 .contents12 #input4 .button4 {
     color: white;
     background-color: #da6b64;
     margin: 32px 0 0 0;
@@ -6203,7 +6198,6 @@ body {
     border-radius: 51px;
     font-size: 23px;
     font-weight: 600;
-    letter-spacing: 20px;
   }
 }
 

@@ -1,0 +1,36 @@
+<form action="https://api.staticforms.xyz/submit" method="post">
+  <style>
+    .input {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .name{
+      width: 100px;
+      margin-bottom: 10px;
+    }
+
+    .mail{
+      width: 100px;
+      margin-bottom: 10px;
+    }
+
+    .massage{
+      width: 200px;
+      margin-bottom: 10px;
+    }
+  </style>
+  <h1>お問い合わせフォーム</h1>
+  <div class="input">
+    <input class="name" type="text" name="name" placeholder="Your Name">
+    <input class="mail" type="text" name="email" placeholder="Your Email">
+    <textarea class="massage" name="message" placeholder="お問い合わせ内容"></textarea>
+    <input type="text" name="honeypot" style="display:none">
+  </div>
+  <input type="hidden" name="accessKey" value="dbabe6f6-e151-4771-835f-e7e524d93281">
+  <input type="hidden" name="subject" value="Contact us from - example.com">
+  <input type="hidden" name="replyTo" value="@">
+  <input type="hidden" name="redirectTo" value="https://takumi0910.github.io/submit-/">
+  <input type="submit" value="submit">
+  <input type="hidden" name="subject" value="お問い合わせいただきありがとうございます">
+</form>

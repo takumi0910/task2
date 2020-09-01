@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>資料請求</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="style/style2.css">
+</head>
+
+<body>
+    <div class="container">
+        <form action="malito:toeic0910@gmail.com" method="post">
+            <div class="introduction">
+                <h1>お問い合わせフォーム</h1>
+                <p>必要事項をご記入の上、送信ボタンをクリックしてください。</p>
+                <p class="attention">姓名 は必須入力です。</p>
+                <p class="attention">メールアドレス は必須入力です。</p>
+            </div>
+            <div class="contact-title">資料請求</div>
+            <table class="contact">
+                <tbody>
+                    <tr>
+                        <th>
+                            姓名<span>必須</span>
+                        </th>
+                        <td>
+                            <p class="attention">姓名 は必須入力です。</p>
+                            （姓）<input class="surname" name="name" type="text">&emsp;（名）<input class="name" type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            メールアドレス<span>必須</span>
+                        </th>
+                        <td>
+                            <p class="attention">メールアドレス は必須入力です。</p>
+                            <input type="text" name="mail" class="mail">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="remark">
+                            お問い合わせ内容
+                        </th>
+                        <td class="remark2"><textarea name="inquiry"></textarea></td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+        <div class="button">
+            <input type="submit"  value=" 送    信 ">
+        </div>
+        <div class="confirm">すぐに登録完了メールが届きます。<br>
+            万が一、3分以内にメールが届かない場合は、<br>
+            メールアドレスの入力ミスが考えられますので、<br>
+            大変お手数ですが、再度入力をお願いします。
+        </div>
+        <div class="link">
+            <a href="http://form.orange-cloud7.net/">Powered by メールフォーム 『オレンジフォーム』</a> &thinsp;
+            <a href="https://www.orange-cloud7.net/privacy/">プライバシーポリシー</a>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,152 @@
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.container .introduction {
+  text-align: center;
+}
+
+.container .introduction h1 {
+  margin: 16px 0;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 38px;
+}
+
+.container .introduction p {
+  font-size: 14px;
+  margin: 38px 0;
+}
+
+.container .introduction .attention {
+  text-align: left;
+  color: red;
+  font-size: 12px;
+  line-height: 19.2px;
+  font-weight: 700;
+  margin: 12px 0;
+}
+
+.container .contact-title {
+  width: 700px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 18.2px;
+  font-weight: 700;
+  padding: 5px;
+  background-color: #b3b3b3;
+  text-align: center;
+  line-height: 28px;
+}
+
+.container .contact {
+  width: 100%;
+  margin: 0;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 19.2px;
+  border-collapse: collapse;
+}
+
+.container .contact span {
+  float: right;
+  background-color: red;
+  color: white;
+  padding: 1px 3px 0px 3px;
+}
+
+.container .contact th {
+  margin: 0;
+  padding: 5px 20px;
+  background-color: #f5f5f5;
+  text-align: left;
+  width: 186px;
+  border: solid 1px #949499;
+}
+
+.container .contact .remark {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 110px;
+}
+
+.container .contact td {
+  padding: 3px;
+  font-weight: normal;
+  border: solid 1px #949499;
+}
+
+.container .contact td .attention {
+  font-weight: 700;
+}
+
+.container .contact td .surname {
+  width: 60px;
+  padding: 1px 2px;
+  border: 1px solid -internal-light-dark(#767676, #c3c3c3);
+}
+
+.container .contact td .name {
+  width: 60px;
+  padding: 1px 2px;
+  border: 1px solid -internal-light-dark(#767676, #c3c3c3);
+}
+
+.container .contact td .mail {
+  padding: 1px 2px;
+  border: 1px solid -internal-light-dark(#767676, #c3c3c3);
+  width: 461.33px;
+}
+
+.container .contact td textarea {
+  padding: 1px;
+  border: 1px solid -internal-light-dark(#767676, #c3c3c3);
+  width: 461.33px;
+  height: 100px;
+  vertical-align: top;
+}
+
+.container .contact td p {
+  margin: 0;
+  color: #f00;
+}
+
+.container .button {
+  margin: 33px auto 0;
+  width: 92px;
+  height: 36px;
+  font-size: 16px;
+}
+
+.container .button input {
+  width: 92px;
+  height: 36px;
+  padding: 5px;
+  font-family: "Arial";
+  font-size: 16px;
+  background-color: #b3b3b3;
+  border: solid 1px #949499;
+  letter-spacing: normal;
+}
+
+.container .confirm {
+  margin-top: 32px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 22.4px;
+}
+
+.container .link {
+  text-align: center;
+  margin-top: 105px;
+}
+
+.container .link a {
+  font-size: 12px;
+  line-height: 19.2px;
+  text-decoration: none;
+  color: black;
+  color: #999;
+}
+/*# sourceMappingURL=style2.css.map */
