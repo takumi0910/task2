@@ -1,36 +1,64 @@
-<form action="https://api.staticforms.xyz/submit" method="post">
-  <style>
-    .input {
-      display: flex;
-      flex-direction: column;
-    }
+<!DOCTYPE html>
+<html lang="ja">
 
-    .name{
-      width: 100px;
-      margin-bottom: 10px;
-    }
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task2</title>
+    <link rel="stylesheet" href="style/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://use.fontawesome.com/a291278d49.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
 
-    .mail{
-      width: 100px;
-      margin-bottom: 10px;
-    }
 
-    .massage{
-      width: 200px;
-      margin-bottom: 10px;
-    }
-  </style>
-  <h1>お問い合わせフォーム</h1>
-  <div class="input">
-    <input class="name" type="text" name="name" placeholder="Your Name">
-    <input class="mail" type="text" name="email" placeholder="Your Email">
-    <textarea class="massage" name="message" placeholder="お問い合わせ内容"></textarea>
-    <input type="text" name="honeypot" style="display:none">
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h1 class="col-md-6 offset-md-4  my-4">お問い合わせフォーム</h1>
+      <form action="https://api.staticforms.xyz/submit" method="post">
+        <input type="hidden" name="accessKey" value="dbabe6f6-e151-4771-835f-e7e524d93281">
+        <input type="hidden" name="subject" value="お問い合わせありがとうございます。">
+        <input type="hidden" name="redirectTo" value="https://takumi0910.github.io/submit-/">
+        <div class="form-group row">
+          <label for="inputName" class="col-sm-4 col-form-label">お名前</label>
+          <div class="col-sm-8">
+            <input type="text" name="name" class="form-control" id="inputName">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="inputEmail" class="col-sm-4 col-form-label">メールアドレス</label>
+          <div class="col-sm-8">
+            <input type="text" name="email" class="form-control" id="inputEmail">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="inputTextarea" class="col-sm-4 col-form-label">問い合わせ内容</label>
+          <div class="col-sm-8">
+            <textarea name="message" rows="3" class="form-control" id="inputTextarea"></textarea>
+          </div>
+        </div>
+        <div class="text-center">
+          <button type="submit" class="btn btn-primary mb-2 w-30">送信</button>
+        </div>
+      </form>
+    </div>
   </div>
-  <input type="hidden" name="accessKey" value="dbabe6f6-e151-4771-835f-e7e524d93281">
-  <input type="hidden" name="subject" value="Contact us from - example.com">
-  <input type="hidden" name="replyTo" value="@">
-  <input type="hidden" name="redirectTo" value="https://takumi0910.github.io/submit-/">
-  <input type="submit" value="submit">
-  <input type="hidden" name="subject" value="お問い合わせいただきありがとうございます">
-</form>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"
+integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</body>
+
+</html>
